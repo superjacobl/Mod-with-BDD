@@ -1,0 +1,346 @@
+﻿l_polish:
+LOT:0 "Lotaryngia"
+LOT_ADJ:0 "Lotaryński"
+
+EUR:0 "Federacja Europejska"
+EUR_ADJ:0 "Europejski"
+dyn_c_european_empire: "Cesarstwo Europy"
+dyn_c_socialist_republic_of_europe: "Socjalistyczna Republika Zjednoczonej Europy"
+dyn_c_free_europe: "Wolna Europa"
+dyn_c_european_state: "Państwo Europejskie"
+dyn_c_holy_european_order: "Święta Europa"
+
+
+WGR:0 "Niemcy Nadwołżańskie"
+WGR_ADJ:0 "Nadwołżański "
+dyn_c_volga_socialist_republic: "Sojalistyczna Republika Nadwołżańska"
+dyn_c_far_east_german_state: "Kraj Niemców Dalekowschodnich"
+
+BNL:0 "Beneluks"
+BNL_ADJ:0 "Beneluski"
+
+CEL:0 "Celtia"
+CEL_ADJ:0 "Celtycki"
+
+INC:0 "Inka"
+INC_ADJ:0 "Inkaski"
+
+ZAP:0 "Zapadosławia"
+ZAP_ADJ:0 "Zapadosłowiański"
+
+STP:0 "Sankt Petersburg"
+STP_ADJ:0 "Petersburdzki"
+
+ING:0 "Ingria"
+ING_ADJ:0 "Ingrydzki"
+
+PAI:0 "Paryż"
+PAI_ADJ:0 "Paryski"
+
+CNW:0 "Kornwalia"
+CNW_ADJ:0 "Kornwaldzki"
+
+CRT:0 "Kartagina"
+CRT_ADJ:0 "Kartagiński"
+
+CRB:0 "Federacja Karaibska"
+CRB_ADJ:0 "Karaibski"
+dyn_c_kingdom_of_the_caribbean: "Królestwo Karaibów"
+dyn_c_caribbean_socialist_republics: "Socjalistyczne Republiki Karaibów"
+dyn_c_caribbean_free_states: "Wolne Ziemie Karaibskie"
+dyn_c_caribbean_state: "Kraj Karaibski"
+
+HRE:0 "Święte Cesarstwo Rzymskie"
+HRE_ADJ:0 "Święto Rzymski"
+dyn_c_holy_roman_republic: "Święta Republika Rzymska"
+dyn_c_holiest_roman_empire: "Najświętsze Cesarstwo Rzymskie"
+dyn_c_holy_socialist_republics: "Święta Socjalistyczna Republika Rzymska"
+dyn_c_holy_commune: "Święta Społeczność"
+
+IFR:0 "Federacja Imperialna"
+IFR_ADJ:0 "Imperialny"
+dyn_c_holy_global_federation: "Globalna Święta Federacja"
+dyn_c_global_socialist_federation: "Światowa Federacja Socjalistyczna"
+dyn_c_global_anarchist_society: "Globalna Anarchia"
+
+SOM:0 "Somalia"
+SOM_ADJ:0 "Somalijski"
+
+RMA:0 "Cesarstwo Rzymskie"
+RMA_ADJ:0 "Rzymski"
+dyn_c_free_roman_lands: "Wolne Ziemie Rzymskie"
+
+BGR:0 "Bułgaria-Rumunia"
+BGR_ADJ:0 "Bułgardzko-Rumuński"
+
+LMV:0 "Lombardia-Wenecja"
+LMV_ADJ:0 "Lombardzko-Wenecki"
+
+BON:0 "Borneo"
+BON_ADJ:0 "Borneański"
+
+ANC:0 "Federacja Antylińska"
+ANC_ADJ:0 "Antyliński"
+
+PAG:0 "Patria Grande"
+PAG_ADJ:0 "Patryjski"
+dyn_c_ursal: "Związek Socjalistycznych Republik Ameryki Łacińskiej"
+
+GRL:0 "Wielka Francja"
+GRL_ADJ:0 "Wielkofrancuski"
+
+BAA:0 "Banatia"
+BAA_ADJ:0 "Banatiański"
+
+BAN:0 "Banat"
+BAN_ADJ:0 "Banaski"
+
+MRV:0 "Wielkie Morawy"
+MRV_ADJ:0 "Morawski"
+
+ILY:0 "Iliria"
+ILY_ADJ:0 "Iliryjski"
+
+BKV:0 "Bukowina"
+BKV_ADJ:0 "Bukowski"
+
+JAU:0 "Goshu"
+JAU_ADJ:0 "Goshu"
+
+JER:0 "Jerozolima"
+JER_ADJ:0 "Jerozolimski"
+dyn_c_kingdom_of_jerusalem: "Królestwo Jerozolimskie"
+
+EAF:0 "Afryka Wschodnia"
+EAF_ADJ:0 "Wschodnioafrykański"
+dyn_c_east_african_federation: "Federacja Wschodnioafrykańska"
+dyn_c_east_african_commune: "Społeczeństwo Wschodniej Afryki"
+dyn_c_east_african_kingdom: "Królestwo Afryki Wschodniej"
+
+
+NYC:0 "Miasto Nowy Jork"
+NYC_ADJ:0 "Nowojorski"
+
+ACA:0 "Akadia"
+ACA_ADJ:0 "Akadyjski"
+
+NOF:0 "Nowa Francja"
+NOF_ADJ:0 "Nowofrancuski"
+
+PAS:0 "Pacyfik"
+PAS_ADJ:0 "Pacyficzny"
+dyn_c_pacific_kingdom: "Królestwo Pacyfiku"
+dyn_c_pacific_commune: "Społeczeństwo Pacyfiku"
+
+dyn_c_cascadian_kindgom: "Królestwo Kaskadu"
+
+GLR:0 "Republika Wielkich Jezior"
+GLR_ADJ:0 "Wielkojeziorny"
+dyn_c_kingdom_of_the_great_lakes: "Królestwo Wielkich Jezior"
+dyn_c_great_lakes_communes: "Społeczeństwo Wielkich Jezior"
+
+TDW:0 "Wielkie Ujścia"
+TDW_ADJ:0 "Wielkoujściowy"
+dyn_c_ocean_kingdom: "Królestwo Oceaniczne"
+dyn_c_tide_communist_state: "Socjalistyczna Republika Wielkich Ujść"
+
+APL:0 "Appalachia"
+APL_ADJ:0 "Appalachaski"
+dyn_c_mountain_kingdom: "Królestwo Gór"
+dyn_c_appalachian_commune: "Ludność Appalachów"
+
+ATC:0 "Atlantyk"
+ATC_ADJ:0 "Atlantydzki"
+dyn_c_atlantis: "Atlantis"
+dyn_c_atlantic_society: "Społeczeństwo Atlantyku"
+
+AXO:0 "Ariksyk"
+AXO_ADJ:0 "Arikski"
+dyn_c_arixo_kingdom: "Królestwo Ariksyjskie"
+
+ROK:0 "Skalista Republika"
+ROK_ADJ:0 "Skalistyjski"
+dyn_c_kingdom_of_the_rockies: "Skaliste Królestwo"
+dyn_c_rock_community: "Ludność Gór Skalistych"
+
+MWR:0 "Republika Środkowozachodnia"
+MWR_ADJ:0 "Środkowozachodni"
+dyn_c_great_plains_kingdom: "Królestwo Wielkich Równin"
+dyn_c_great_plains_communes: "Społeczność Wielkich Równin"
+
+DIX:0 "Dixie"
+DIX_ADJ:0 "Diksiański"
+dyn_c_southern_kingdom: "Królestwo Południa"
+dyn_c_southern_communes: "Społeczeństwo Południa"
+
+GTX:0 "Większy Teksas"
+GTX_ADJ:0 "Większego Teksasu"
+
+DKO:0 "Dakota"
+DKO_ADJ:0 "Dakotański"
+
+CAR:0 "Karolina"
+CAR_ADJ:0 "Karoliński"
+
+TTC:0 "Trzynaście Kolonii"
+TTC_ADJ:0 "Kolonialny"
+dyn_c_new_brittain: "Nowa Brytania"
+dyn_c_thirteen_communes: "Trzynaście Komun"
+
+ARC:0 "Arktyka"
+ARC_ADJ:0 "Arktyczny"
+dyn_c_arctic_kindom: "Królestwo Arktyki"
+dyn_c_arctic_society: "Społeczność Arktyczna"
+dyn_c_hyperborea: "Hyperborea"
+
+MAI:0 "Maine"
+MAI_ADJ:0 "Mainarski"
+NHM:0 "New Hampshire"
+NHM_ADJ:0 "Nowohampshirejski"
+VER:0 "Vermont"
+VER_ADJ:0 "Vermoncki"
+MAS:0 "Massachusetts"
+MAS_ADJ:0 "Massachusettański"
+RHI:0 "Rhode Island"
+RHI_ADJ:0 "Rhodeislandzki"
+CNN:0 "Connecticut"
+CNN_ADJ:0 "Connecticutiański"
+NYK:0 "Nowy Jork"
+NYK_ADJ:0 "Nowojorski"
+NJY:0 "New Jersey"
+NJY_ADJ:0 "Newjerski"
+PEN:0 "Pensylwania"
+PEN_ADJ:0 "Pensylwandzki"
+DEL:0 "Delaware"
+DEL_ADJ:0 "Delawareański"
+MAR:0 "Maryland"
+MAR_ADJ:0 "Marylandzki"
+VIR:0 "Wirginia"
+VIR_ADJ:0 "Wirginiański"
+NCR:0 "Karolina Północna"
+NCR_ADJ:0 "Północnokaroliński"
+SCR:0 "Karolina Południowa"
+SCR_ADJ:0 "Południowokaroliński"
+GRG:0 "Georgia"
+GRG_ADJ:0 "Georgiański"
+FLR:0 "Floryda"
+FLR_ADJ:0 "Florydzki"
+OHI:0 "Ohio"
+OHI_ADJ:0 "Ohiański"
+INA:0 "Indiana"
+INA_ADJ:0 "Indianański"
+ILL:0 "Illinois"
+ILL_ADJ:0 "Illinoiski"
+WVA:0 "Wirginia Zachodnia"
+WVA_ADJ:0 "Zachodniowirgiński"
+KEN:0 "Kentucky"
+KEN_ADJ:0 "Kentucki"
+TEN:0 "Tennessee"
+TEN_ADJ:0 "Tenneski"
+ALA:0 "Alabama"
+ALA_ADJ:0 "Alabamski"
+MIS:0 "Mississippi"
+MIS_ADJ:0 "Mississippiański"
+MIN:0 "Minnesota"
+MIN_ADJ:0 "Minnesotski"
+WIS:0 "Wisconsin"
+WIS_ADJ:0 "Wisconski"
+IOA:0 "Iowa"
+IOA_ADJ:0 "Iowski"
+MSR:0 "Missouri"
+MSR_ADJ:0 "Missourski"
+ARK:0 "Arkansas"
+ARK_ADJ:0 "Arkansadzki"
+NDK:0 "Dakota Północna"
+NDK_ADJ:0 "Północnodakodzki"
+SDK:0 "Dakota Południowa"
+SDK_ADJ:0 "Południowodakodzki"
+NEB:0 "Nebraska"
+NEB_ADJ:0 "Nebraski"
+KAN:0 "Kansas"
+KAN_ADJ:0 "Kansaski"
+OKL:0 "Oklahoma"
+OKL_ADJ:0 "Oklahomdzki"
+MTN:0 "Montana"
+MTN_ADJ:0 "Montanadzki"
+WYO:0 "Wyoming"
+WYO_ADJ:0 "Wyomingdzki"
+CDO:0 "Kolorado"
+CDO_ADJ:0 "Koloradzki"
+NMX:0 "Nowy Meksyk"
+NMX_ADJ:0 "Nowomeksykański"
+IDA:0 "Idaho"
+IDA_ADJ:0 "Idahodzki"
+ARI:0 "Arizona"
+ARI_ADJ:0 "Arizoński"
+WSH:0 "Waszyngton"
+WSH_ADJ:0 "Waszyngtoński"
+ORE:0 "Oregon"
+ORE_ADJ:0 "Oregoński"
+NEV:0 "Nevada"
+NEV_ADJ:0 "Nevadzki"
+AKA:0 "Alaska"
+AKA_ADJ:0 "Alaskański"
+
+NTH:0 "Nortumbria"
+NTH_ADJ:0 "Nortumbrski"
+
+GOT:0 "Gotlandia"
+GOT_ADJ:0 "Gotlandzki"
+
+FAL:0 "Alzacja-Lotaryngia"
+FAL_ADJ:0 "Alzacki"
+
+GEL:0 "Niemiecka Alzacja-Lotaryngia"
+GEL_ADJ:0 "Niemieckoalzacki"
+
+AAL:0 "Alandia"
+AAL_ADJ:0 "Alandzki"
+
+SUT:0 "Tyrol Południowy"
+SUT_ADJ:0 "Południowotyrolski"
+
+AGV:0 "Imperium Andegaweńskie"
+AGV_ADJ:0 "Andegaweński"
+dyn_c_angevin_republic: "Republika Brytyjsko-Francuska"
+dyn_c_channel_council: "Channel Council"
+
+dyn_c_portugal_galicia: "Portugalia-Galicja"
+
+dyn_c_denmark_norway: "Dania-Norwegia"
+
+CSR:0 "Cono Sur"
+CSR_ADJ:0 "Conosurdzki"
+
+VLS:0 "Volkstaat"
+VLS_ADJ:0 "Volkstadzki"
+
+ALP:0 "Republika Alpejska"
+ALP_ADJ:0 "Alpejski"
+dyn_c_alpine_kingdom: "Cesarwto Alpejskie"
+dyn_c_alpine_commune: "Społeczność Alpejska"
+dyn_c_alpine_see: "Święte Góry"
+
+TER:0 "Rumelia"
+TER_ADJ:0 "Rumeliański"
+
+ICH:0 "Indochiny"
+ICH_ADJ:0 "Indochiński"
+
+GAY:0 "Gujana"
+GAY_ADJ:0 "Gujański"
+
+KOS:0 "Kosowo"
+KOS_ADJ:0 "Kosowski"
+
+ISB:0 "Beta-Israel"
+ISB_ADJ:0 "Betaisraelski"
+
+ISE:0 "Sejm Czterech Ziem"
+ISE_ADJ:0 "Sejmowy"
+
+ISC:0 "Aszkenaz"
+ISC_ADJ:0 "Aszkenadzki"
+
+JAO:0 "Żydowski Obwód Autonomiczny"
+JAO_ADJ:0 "Obwodu Żydowskiego

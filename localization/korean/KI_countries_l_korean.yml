@@ -1,0 +1,348 @@
+﻿l_korean:
+ LOT:0 "로타링기아"
+ LOT_ADJ:0 "로타링기아"
+
+ EUR:0 "유럽연합"
+ EUR_ADJ:0 "유럽"
+ dyn_c_european_empire: "유럽 제국"
+ dyn_c_socialist_republic_of_europe: "유럽 사회주의 공화국"
+ dyn_c_free_europe: "자유 유럽"
+ dyn_c_european_state: "유럽국"
+ dyn_c_holy_european_order: "신성 유럽 기사단국"
+
+
+ WGR:0 "볼가 독일"
+ WGR_ADJ:0 "볼가 독일"
+ dyn_c_volga_socialist_republic: "볼가 사회주의 공화국"
+ dyn_c_far_east_german_state: "극동 독일국"
+
+ BNL:0 "베네룩스"
+ BNL_ADJ:0 "베네룩스"
+
+ CEL:0 "셀틱"
+ CEL_ADJ:0 "셀틱"
+
+ INC:0 "잉카"
+ INC_ADJ:0 "잉카"
+
+ ZAP:0 "자파도슬라비아"
+ ZAP_ADJ:0 "자파도슬라비아"
+
+ STP:0 "세인트 피터버그"
+ STP_ADJ:0 "세인트 피터버그"
+
+ ING:0 "잉그리아"
+ ING_ADJ:0 "잉그리아"
+
+ PAI:0 "파리"
+ PAI_ADJ:0 "파리"
+
+ CNW:0 "콘월"
+ CNW_ADJ:0 "콘월"
+
+ CRT:0 "카르타고"
+ CRT_ADJ:0 "카르타고"
+
+ CRB:0 "카리브 연방"
+ CRB_ADJ:0 "카리브"
+ dyn_c_kingdom_of_the_caribbean: "카리브 왕국"
+ dyn_c_caribbean_socialist_republics: "카리브 사회주의 공화국"
+ dyn_c_caribbean_free_states: "카리브 자유국"
+ dyn_c_caribbean_state: "카리브국"
+
+ HRE:0 "신성 로마 제국"
+ HRE_ADJ:0 "신성 로마 제국"
+ dyn_c_holy_roman_republic: "신성 로마 공화국"
+ dyn_c_holiest_roman_empire: "거룩한 로마 제국"
+ dyn_c_holy_socialist_republics: "신성 사회주의 공화국"
+ dyn_c_holy_commune: "신성 코뮌"
+
+ IFR:0 "제국 연방"
+ IFR_ADJ:0 "제국"
+ dyn_c_holy_global_federation: "신성 세계 연방"
+ dyn_c_global_socialist_federation: "세계 사회주의 연방"
+ dyn_c_global_anarchist_society: "세계 무정부주의 공동체"
+
+ SOM:0 "소말리아"
+ SOM_ADJ:0 "소말리아"
+
+ RMA:0 "로마 제국"
+ RMA_ADJ:0 "로마"
+ dyn_c_roman_republic: "로마 공화국"
+ dyn_c_free_roman_lands: "자유 로마"
+
+ BGR:0 "불가리아-루마니아"
+ BGR_ADJ:0 "불가리아-루마니아"
+
+ LMV:0 "롬바르디아-베네치아"
+ LMV_ADJ:0 "롬바르디아-베네치아"
+
+ BON:0 "보르네오"
+ BON_ADJ:0 "보르네오"
+
+ ANC:0 "앤틸러스 연합"
+ ANC_ADJ:0 "앤틸러스"
+
+ PAG:0 "파트리아 그란데"
+ PAG_ADJ:0 "파트리아 그란데"
+ dyn_c_ursal: "라틴 아메리카 사회주의 공화국 연합"
+
+ GRL:0 "그랑델뤼미에르"
+ GRL_ADJ:0 "그랑델뤼미에르"
+
+ BAA:0 "바나티아"
+ BAA_ADJ:0 "바나티아"
+
+ BAN:0 "바나트"
+ BAN_ADJ:0 "바나트"
+
+ MRV:0 "대모라비아"
+ MRV_ADJ:0 "모라비아"
+
+ ILY:0 "일리리아"
+ ILY_ADJ:0 "일리리아"
+
+ BKV:0 "부코비나"
+ BKV_ADJ:0 "부코비나"
+
+ JAU:0 "고슈"
+ JAU_ADJ:0 "고슈"
+
+ JER:0 "예루살렘"
+ JER_ADJ:0 "예루살렘"
+ dyn_c_kingdom_of_jerusalem: "예루살렘 왕국"
+
+ EAF:0 "동아프리카"
+ EAF_ADJ:0 "동아프리카"
+ dyn_c_east_african_federation: "동아프리카 연방"
+ dyn_c_east_african_commune: "동아프리카 코뮌"
+ dyn_c_east_african_kingdom: "동아프리카 왕국"
+
+
+ NYC:0 "뉴욕"
+ NYC_ADJ:0 "뉴욕"
+
+ ACA:0 "아카디아"
+ ACA_ADJ:0 "아카디아"
+
+ NOF:0 "누벨프랑스"
+ NOF_ADJ:0 "누벨프랑스"
+
+ PAS:0 "태평양국"
+ PAS_ADJ:0 "태평양"
+ dyn_c_pacific_kingdom: "태평양 왕국"
+ dyn_c_pacific_commune: "태평양 코뮌"
+
+ dyn_c_cascadian_kindgom: "카스카디아 왕국"
+
+ GLR:0 "오대호 공화국"
+ GLR_ADJ:0 "오대호"
+ dyn_c_kingdom_of_the_great_lakes: "오대호 왕국"
+ dyn_c_great_lakes_communes: "오대호 코뮌"
+
+ TDW:0 "타이드워터"
+ TDW_ADJ:0 "타이드워터"
+ dyn_c_ocean_kingdom: "바다 왕국"
+ dyn_c_tide_communist_state: "타이드 인민 공화국"
+
+ APL:0 "애팔래치아"
+ APL_ADJ:0 "애팔래치아"
+ dyn_c_mountain_kingdom: "산악 공화국"
+ dyn_c_appalachian_commune: "애팔래치아 코뮌"
+
+ ATC:0 "아틀란티카"
+ ATC_ADJ:0 "아틀란티카"
+ dyn_c_atlantis: "아틀란티스"
+ dyn_c_atlantic_society: "아틀란티카 공동체"
+
+ AXO:0 "아릭소"
+ AXO_ADJ:0 "아릭소"
+ dyn_c_arixo_kingdom: "아릭소 왕국"
+
+ ROK:0 "로키 공화국"
+ ROK_ADJ:0 "로키"
+ dyn_c_kingdom_of_the_rockies: "로키 왕국"
+ dyn_c_rock_community: "로키 코뮌"
+
+ MWR:0 "중서부 공화국"
+ MWR_ADJ:0 "중서부"
+ dyn_c_great_plains_kingdom: "대평원 공화국"
+ dyn_c_great_plains_communes. "대평원 코뮌"
+
+ DIX:0 "딕시"
+ DIX_ADJ:0 "딕시"
+ dyn_c_southern_kingdom: "남부 왕국"
+ dyn_c_southern_communes: "남부 코뮌"
+
+ GTX:0 "대 택사스"
+ GTX_ADJ:0 "대 택사스"
+
+ DKO:0 "다코타"
+ DKO_ADJ:0 "다코타"
+
+ CAR:0 "카롤리나"
+ CAR_ADJ:0 "카롤리나"
+
+ TTC:0 "13개 식민지"
+ TTC_ADJ:0 "식민지"
+ dyn_c_new_brittain: "신영국"
+ dyn_c_thirteen_communes: "13개 코뮌"
+
+ ARC:0 "북극국"
+ ARC_ADJ:0 "북극"
+ dyn_c_arctic_kindom: "북극 왕국"
+ dyn_c_arctic_society: "북극 공동체"
+ dyn_c_hyperborea: "하이퍼보레아"
+
+ MAI:0 "메인"
+ MAI_ADJ:0 "메이너"
+ NHM:0 "뉴햄프셔"
+ NHM_ADJ:0 "뉴햄프셔"
+ VER:0 "버몬트"
+ VER_ADJ:0 "버몬터"
+ MAS:0 "매사추세츠"
+ MAS_ADJ:0 "매사추세츠"
+ RHI:0 "로드아일랜드"
+ RHI_ADJ:0 "로드아일랜드"
+ CNN:0 "커네티컷"
+ CNN_ADJ:0 "커네티컷"
+ NYK:0 "뉴욕"
+ NYK_ADJ:0 "뉴욕"
+ NJY:0 "뉴저지"
+ NJY_ADJ:0 "뉴저지"
+ PEN:0 "펜실베니아"
+ PEN_ADJ:0 "펜실베니아"
+ DEL:0 "델라웨어"
+ DEL_ADJ:0 "델라웨어"
+ MAR:0 "메릴랜드"
+ MAR_ADJ:0 "메릴랜드"
+ VIR:0 "버지니아"
+ VIR_ADJ:0 "버지니아"
+ NCR:0 "노스캐롤라이나"
+ NCR_ADJ:0 "노스캐롤라이나"
+ SCR:0 "사우스캐롤라이나"
+ SCR_ADJ:0 "사우스캐롤라이나"
+ GRG:0 "조지아"
+ GRG_ADJ:0 "조지아"
+ FLR:0 "플로리다"
+ FLR_ADJ:0 "플로리다"
+ OHI:0 "오하이오"
+ OHI_ADJ:0 "오하이오"
+ INA:0 "인디애나"
+ INA_ADJ:0 "인디애나"
+ ILL:0 "일리노이"
+ ILL_ADJ:0 "일리노이"
+ WVA:0 "웨스트버지니아"
+ WVA_ADJ:0 "웨스트버지니아"
+ KEN:0 "켄터키"
+ KEN_ADJ:0 "켄터키"
+ TEN:0 "테네시"
+ TEN_ADJ:0 "테네시"
+ ALA:0 "앨라배마"
+ ALA_ADJ:0 "앨라배마"
+ MIS:0 "미시시피"
+ MIS_ADJ:0 "미시시피"
+ MIN:0 "미네소타"
+ MIN_ADJ:0 "미네소타"
+ WIS:0 "위스콘신"
+ WIS_ADJ:0 "위스콘신"
+ IOA:0 "아이오와"
+ IOA_ADJ:0 "아이오와"
+ MSR:0 "미주리"
+ MSR_ADJ:0 "미주리"
+ ARK:0 "아칸소"
+ ARK_ADJ:0 "아칸소"
+ NDK:0 "노스다코타"
+ NDK_ADJ:0 "노스다코타"
+ SDK:0 "사우스다코타"
+ SDK_ADJ:0 "사우스다코타"
+ NEB:0 "네브래스카"
+ NEB_ADJ:0 "네브래스카"
+ KAN:0 "칸자스"
+ KAN_ADJ:0 "칸자스"
+ OKL:0 "오클라호마"
+ OKL_ADJ:0 "오클라호마"
+ MTN:0 "몬타나"
+ MTN_ADJ:0 "몬타나"
+ WYO:0 "와이오밍"
+ WYO_ADJ:0 "와이오밍"
+ CDO:0 "콜로라도"
+ CDO_ADJ:0 "콜로라도"
+ NMX:0 "뉴멕시코"
+ NMX_ADJ:0 "뉴멕시코"
+ IDA:0 "아이다호"
+ IDA_ADJ:0 "아이다호"
+ ARI:0 "애리조나"
+ ARI_ADJ:0 "애리조나"
+ WSH:0 "워싱턴"
+ WSH_ADJ:0 "워싱턴"
+ ORE:0 "오리건"
+ ORE_ADJ:0 "오리건"
+ NEV:0 "네바다"
+ NEV_ADJ:0 "네바다"
+ AKA:0 "알래스카"
+ AKA_ADJ:0 "알래스카"
+
+ NTH:0 "노섬브리아"
+ NTH_ADJ:0 "노섬브리아"
+
+
+ GOT:0 "고틀란드"
+ GOT_ADJ:0 "고틀란드"
+
+ FAL:0 "알자스-로렌"
+ FAL_ADJ:0 "알자스"
+
+ GEL:0 "엘자스-로트링겐"
+ GEL_ADJ:0 "엘자스"
+
+ AAL:0 "올란드"
+ AAL_ADJ:0 "올란드"
+
+ SUT:0 " 남티롤"
+ SUT_ADJ:0 " 남티롤"
+
+ AGV:0 "앙주 제국"
+ AGV_ADJ:0 "앙주"
+ dyn_c_angevin_republic: "이두 공화국"
+ dyn_c_channel_council: "채널 의회"
+
+ dyn_c_portugal_galicia: "포르투갈라시아"
+
+ dyn_c_denmark_norway: "덴마크-노르웨이"
+
+ CSR:0 "코노 수르"
+ CSR_ADJ:0 "코노 수르"
+
+ VLS:0 "폴크슈타트"
+ VLS_ADJ:0 "폴크슈타트"
+
+ ALP:0 "알파인 공화국"
+ ALP_ADJ:0 "알파인"
+ dyn_c_alpine_kingdom: "알파인 제국"
+ dyn_c_alpine_commune: "알파인 코뮌"
+ dyn_c_alpine_see: "Alpine See"
+
+ TER:0 "루멜리아"
+ TER_ADJ:0 "루멜리아"
+
+ IDC:0 "인도차이나"
+ IDC_ADJ:0 "인도차이나"
+
+ GAY:0 "가이아나"
+ GAY_ADJ:0 "가이아나"
+
+ KOS:0 "코소보"
+ KOS_ADJ:0 "코소보"
+
+ ISB:0 "베타 이스라엘"
+ ISB_ADJ:0 "베타 이스라엘"
+
+ ISE:0 "네 개의 땅의 의회"
+ ISE_ADJ:0 "의회"
+
+ ISC:0 "아슈케나즈"
+ ISC_ADJ:0 "아슈케나즈"
+
+ JAO:0 "예브레이스카야 아브토놈니 자치구"
+ JAO_ADJ:0 "예브레이스카야"

@@ -1,0 +1,21 @@
+﻿NGF = {
+	is_major_formation = no
+	use_culture_states = yes
+
+	#unification_play = dp_unify_ngf
+	#leadership_play = dp_leadership_ngf
+
+
+	required_states_fraction = 0.75
+
+	possible = {
+		country_has_primary_culture = cu:north_german
+		exists = c:SGF
+		#custom_tooltip = {
+		#	text = je_ngf_trigger_desc
+		#	exists = c:SGF
+		#}
+	}
+
+	ai_will_do = { always = yes }
+}

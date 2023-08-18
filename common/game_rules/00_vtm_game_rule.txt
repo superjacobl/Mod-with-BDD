@@ -1,0 +1,19 @@
+﻿ngf_unification = {
+	default = disallow_ngf_unification
+
+	disallow_ngf_unification = {
+	}
+
+	allow_ngf_unification = {
+	}
+}
+
+france_birth_rate = {
+	default = leave_france_alone
+
+	leave_france_alone = {
+	}
+
+	dunk_on_france = {
+	}
+}

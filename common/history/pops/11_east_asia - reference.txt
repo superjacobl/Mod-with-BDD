@@ -1,0 +1,50 @@
+﻿minority_central_asian
+uzbek
+kazak
+kirgiz
+tajik
+uighur
+
+minority_east_asian
+miao (check  min =minorty)
+zhuang
+yi
+
+minority_polynesian
+yuanzhumin
+
+thai
+thai
+shan (check state)
+lao (check state)
+
+burmese
+burmese
+karen
+kachin (check state)
+
+khmer
+khmer
+mon (check mongol)
+khmu
+
+minority_siberian
+siberian(first)
+ainu
+
+yakut
+
+-han-
+han
+min (first and check yuazhumin)
+yue
+hakka
+
+
+--keep--
+vietnamese
+mongol
+manchu
+tibetan
+korean
+japanese

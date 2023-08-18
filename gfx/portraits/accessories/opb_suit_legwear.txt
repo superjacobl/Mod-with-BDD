@@ -1,0 +1,12 @@
+﻿
+#####################################
+#									#
+# 			Male Leg Wear			#
+#									#
+#####################################
+
+
+male_legwear_secular_opb_suit = {
+	set_tags = "shrink_legs"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = "male_legwear_secular_opb_suit_entity" }
+}

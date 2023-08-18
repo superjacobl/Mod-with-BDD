@@ -1,0 +1,106 @@
+﻿###################
+#	Texture sets	#
+##################
+pattern_textures = {
+	name = "generic_wool_standard_plain_01"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/generic/generic_wool_standard_plain_01_masks.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/generic/generic_wool_standard_plain_01_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/generic/generic_wool_standard_plain_01_properties.dds"
+}
+pattern_textures = {
+	name = "generic_wool_standard_fine_01"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/generic/generic_wool_standard_fine_01_masks.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/generic/generic_wool_standard_fine_01_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/generic/generic_wool_standard_fine_01_properties.dds"
+}
+pattern_textures = {
+	name = "generic_silk_standard_plain_01"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/generic/generic_silk_standard_plain_01_masks.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/generic/generic_silk_standard_plain_01_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/generic/generic_silk_standard_plain_01_properties.dds"
+}
+pattern_textures = {
+	name = "generic_leather_standard_plain_01"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/generic/generic_leather_standard_plain_01_masks.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/generic/generic_leather_standard_plain_01_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/generic/generic_leather_standard_plain_01_properties.dds"
+}
+
+pattern_textures = {
+	name = "modern_shirt"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/generic/generic_wool_standard_plain_01_masks.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/generic/generic_wool_standard_plain_01_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/generic/generic_wool_standard_fine_01_properties.dds"
+}
+
+pattern_textures = {
+	name = "rautenflagge_01"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/opb_suit/rautenflagge_masks.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/generic/generic_silk_standard_plain_01_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/generic/generic_wool_standard_fine_01_properties.dds"
+}
+
+
+
+
+
+##################
+#	Layouts		#
+##################
+pattern_layout = {
+	name = "plain_fabric_full_layout"	
+	scale 		= { min = 1	max = 1 }
+	rotation 	= { min = 0	max = 0 }	
+	offset 		= { x = { min = 0	max = 0 }    y = { min = 0	max = 0 } } 
+}
+pattern_layout = {
+	name = "plain_fabric_layout"	
+	scale 		= { min = 0.25	max = 0.25 }
+	rotation 	= { min = 0	max = 0 }	
+	offset 		= { x = { min = 0	max = 0 }    y = { min = 0	max = 0 } } 
+}
+pattern_layout = {
+	name = "aj_layout_1"	
+	scale 		= { min = 0.15	max = 0.15 }
+	rotation 	= { min = -6	max = -6 }	
+	offset 		= { x = { min = 0	max = 0 }    y = { min = 0	max = 0 } } 
+}
+pattern_layout = {
+	name = "aj_layout_2"	
+	scale 		= { min = 0.21	max = 0.21 }
+	rotation 	= { min = -6	max = -6 }	
+	offset 		= { x = { min = 0	max = 0 }    y = { min = 0	max = 0 } } 
+}
+
+
+###################
+#	Variations		#
+##################
+
+variation = {
+	name = "opb_suit"
+	
+	pattern = { 
+		weight = 1
+		r = { textures = "modern_shirt" layout = "aj_layout_1" }
+		g = { textures = "rautenflagge_01" layout = "aj_layout_1" }
+		b = { textures = "generic_leather_standard_plain_01" layout = "plain_fabric_full_layout" }
+		a = { textures = "rautenflagge_01"	layout = "aj_layout_2" }
+	}	
+		
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palette_opb_suit.dds" }	
+}
+
+variation = {
+	name = "opb_suit_legwear"
+	
+	pattern = { 
+		weight = 1
+		r = { textures = "generic_leather_standard_plain_01" layout = "plain_fabric_full_layout" }
+		g = { textures = "rautenflagge_01" layout = "aj_layout_1" }
+		b = { textures = "rautenflagge_01" layout = "aj_layout_1" }
+		a = { textures = "rautenflagge_01"	layout = "aj_layout_1" }
+	}	
+		
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palette_opb_suit_legwear.dds" }	
+}

@@ -1,0 +1,47 @@
+﻿namespace = benelux_event
+
+#Benelux event
+benelux_event.1 = {
+	type = country_event
+
+	event_image = {
+		video = "gfx/event_pictures/unspecific_signed_contract.bk2"
+	}
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	
+	on_opened_soundeffect = "event:/SFX/Events/unspecific/military_parade"
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+
+	title = benelux_event.1.t
+	desc = benelux_event.1.d
+	flavor = benelux_event.1.f
+	
+	duration = 3
+
+	trigger = { }
+
+	option = {
+		name = benelux_event.1.a
+		default_option = yes
+		ruler = {
+			add_modifier = {
+				name = national_unifier_ruler
+			}
+		}
+	}
+	option = {
+		name = benelux_event.1.b
+		add_loyalists = {
+			value = 0.1
+			culture = cu:dutch
+		}
+		add_loyalists = {
+			value = 0.1
+			culture = cu:flemish
+		}
+		add_loyalists = {
+			value = 0.1
+			culture = cu:wallonian
+		}
+	}
+}

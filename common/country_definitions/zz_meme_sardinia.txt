@@ -1,0 +1,79 @@
+﻿SAR = {
+	color = { 117  146  167 }
+
+	valid_as_home_country_for_separatists = {
+		NOT = { exists = c:ITA }
+	}
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { north_italian }
+	capital = STATE_PIEDMONT
+	is_named_from_capital = yes
+}
+
+ITA = {
+	color = { 125  171  84 }
+
+	valid_as_home_country_for_separatists = {
+		exists = c:ITA
+	}
+
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { north_italian south_italian }
+	capital = STATE_LAZIO
+}
+
+ROM = {
+	color = { 21  96  178 }
+	
+	valid_as_home_country_for_separatists = {
+		exists = c:ROM
+	}
+
+	country_type = recognized
+
+	tier = kingdom
+	
+	capital = STATE_WALLACHIA
+	cultures = { romanian }
+}
+
+MOL = {
+	color = { 136  157  23 }
+	
+	#valid_as_home_country_for_separatists = {
+	#	NOT = { exists = c:ROM }
+	#}
+
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { romanian }
+	capital = STATE_MOLDAVIA
+	is_named_from_capital = yes
+}
+
+WAL = {
+	color = { 161  126  128 }
+	
+	#valid_as_home_country_for_separatists = {
+	#	NOR = { 
+	#		exists = c:ROM 
+	#		exists = c:MOL
+	#	}
+	#}
+
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { romanian }
+	capital = STATE_WALLACHIA
+	is_named_from_capital = yes
+}

@@ -1,0 +1,16 @@
+
+minority_baltic
+estonian
+latvian
+lithuanian
+
+??
+ashkenazi
+ugrian
+byelorussian
+
+minority_west_slavic
+polish
+czech
+slovak
+sorb

@@ -1,0 +1,45 @@
+﻿agitator_opb = {
+	first_name = Johannes
+	last_name = Bajuware
+	culture = cu:south_german
+	age = default
+	is_agitator = yes
+	historical = yes
+	female = no
+	religion = rel:catholic
+	interest_group = ig_armed_forces
+	ideology = ideology_radical_bavarianism
+	dna = dna_opb
+
+	traits = {
+		ambitious
+		firebrand
+		direct
+	}
+	agitator_usage = {
+		country_trigger = {
+			NOT = {
+				has_global_variable = spawned_opb
+			}
+			OR = {
+				country_has_primary_culture = cu:north_german
+				country_has_primary_culture = cu:south_german
+			}
+			country_rank >= rank_value:major_power
+		}
+        interest_group_trigger = {
+            is_marginal = no
+            OR = {
+                is_interest_group_type = ig_armed_forces
+                is_interest_group_type = ig_petty_bourgeoisie
+            } 
+        }   
+		earliest_usage_date = 1836.1.1
+		latest_usage_date = 1871.12.31
+		chance = 5
+	}
+	on_created = {
+		set_global_variable = spawned_opb
+		set_variable = is_opb
+	} 
+}

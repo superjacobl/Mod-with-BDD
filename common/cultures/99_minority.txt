@@ -1,0 +1,2028 @@
+minority_east_african={
+	color= hsv{ 0.88 0.35 0.64 }
+	religion = sunni
+	traits = { east_african_culture_group african_heritage }
+	male_common_first_names={
+		Banyingela
+		Banza
+		Ilunga
+		Kalenga
+		Kisula
+		Kisempia
+		Koloso
+		Mabi
+		Mauva
+		Mosambaye
+	}
+	female_common_first_names = {
+		Katana
+		Kavidi
+		Masika
+		Moza
+		Mudima
+		Mwanakitata
+		Neema
+	}	
+	noble_last_names = {
+		Alenga
+		Bukuru
+	}
+	common_last_names={
+		Bihamba
+		Katsuva
+		Kazadi
+		Mbangu
+		Munsensa
+		Muwayi
+		Nyirambarato
+		Pongo
+		Sungilanga
+	}
+	ethnicities = {
+		1 = african
+	}
+	graphics = african
+}
+
+minority_southern_african={
+	color= hsv{ 0.45 0.6 0.34 }
+	religion = animist
+	traits = { southern_african_culture_group african_heritage }
+	male_common_first_names={
+		Amadi
+		Andikan
+		Aren
+		Averey
+		Bahari
+		Bakari
+		Bash
+		Bayode
+		Bitalo
+		Chane
+		Chata
+		Dakarai
+		Davu
+		Dume
+		Fabunni
+		Gamba
+		Genet
+		Guban
+		Hajari
+		Haruni
+		Ife
+		Ilo
+		Issay
+		Jabari
+		Jabilo
+		Jaguan
+		Kabili
+		Kamwimbile
+		Kasim
+		Kenyi
+		Khairi
+		Makalo
+		Mansa
+		Morathi
+		Musawenkosi
+		Raimi
+		Razi
+		Reth
+	}
+	female_common_first_names = {
+		Ambwene
+		Taonere
+		Tapiwa
+		Temwa
+	}	
+	noble_last_names = {
+		Banda
+		Chisakamzondi
+		Kalonga
+	}
+	common_last_names={
+		Chakwera
+		Kalimakudzulu
+		Malewezi
+		Mbewe
+		Mkunkhuntha
+		Msume
+		Mwale
+		Phiri
+		Tembo
+	}
+	ethnicities = {
+		1 = african
+	}
+	graphics = african
+}
+
+
+minority_west_african={
+	color= hsv{ 0.98 0.38 0.94 }
+	religion = sunni
+	traits = { west_african_culture_group african_heritage }
+	male_common_first_names={
+		Abisi
+		Adebo
+		Adelu
+		Ademufekun
+		Adeyemi
+		Agidigbo
+		Ajikin
+		Amodo
+		Atiba
+		Bello
+		Gbadegesin
+		Kase
+		Ladopo
+		Lauru
+		Lawani
+		Majotu
+		Makua
+		Oluewu
+		Onikepe
+		Siyanbola
+	}
+	female_common_first_names = {
+		Abibatu
+		Adebumi
+		Adesemi
+		Folashade
+		Funke
+		Idowu
+		Mulikat
+		Oluremi
+		Opo_Olu
+		Tejumade
+	}	
+	noble_last_names = {
+		Adelana
+		Ademola
+		Akinsuroju
+		Aladesanmi
+		Alakija
+		Dosunmu
+		Jadesimi
+		Mogaji
+		Ojulari
+		Ologbenla
+		Tinubu
+	}
+	common_last_names={
+		Adeniran
+		Agogoja
+		Alowolodu
+		Atobatele
+		Bezon
+		Bucknor
+		Dudu
+		Hungbo
+		Oladigbolu
+		Oyo
+		Tofa
+		Tonyon
+		Zumaw
+	}
+	ethnicities = {
+		1 = african
+	}
+	graphics = african
+}
+
+minority_central_african={
+	color= hsv{ 0.23 0.49 0.77 }
+	religion = sunni
+	traits = { central_african_culture_group african_heritage }
+	male_common_first_names={
+		Adham
+		Ahmad
+		Ali
+		Ibrahim
+		Jawda
+		Kharut
+		Muhammad
+		Raqib
+		Salih
+		Yakob
+		Yusuf
+	}
+	female_common_first_names = {
+		Fatime
+	}	
+	noble_last_names = {
+		Habre
+		Kichidemi
+		Nouri
+	}
+	common_last_names={
+		Abd_al-Aziz
+		Abda_al-Karim
+		Arous
+		Derret_ibn_Jawda
+		al-Sharif
+		as-Sarhir
+		ibn_Ali
+		ibn_Yusuf
+	}
+	ethnicities = {
+		1 = african
+	}
+	graphics = african
+}
+
+minority_ethiopian={
+color= hsv{ 0.25 0.43 0.55 }
+	religion = oriental_orthodox
+	traits = { ethiopian east_african_culture_group african_heritage }
+	male_common_first_names={
+		Amare
+		Amha
+		Bekele
+		Berhanu
+		Berihun
+		Demissie
+		Desta
+		Geteye
+		Girma
+		Haile
+		Kelile
+		Negasi
+		Saleh
+	}
+	female_common_first_names = {
+		Menen_Asfaw
+		Belaynesh
+		Sehin_Mikael
+		Tsehai
+		Zenebework
+	}	
+	noble_last_names = {
+		Ali_Aba_Deyas
+		Cherecha
+		Makonnen
+		Selassie
+		Solomon
+	}
+	common_last_names={
+		Mariam
+		Melekot
+		Mikael
+		Petros
+		Seged
+		Wossen
+	}
+	ethnicities = {
+		1 = african
+	}
+	graphics = african
+}
+
+minority_south_american={
+	color= hsv{ 0.10 0.22 0.69 }
+	religion = catholic
+	traits = { indigenous_american_heritage south_american_group }
+	male_common_first_names={
+		Agustin
+		Alejandro
+		Antauro
+		Antonio
+		Basilio
+		Daniel
+		Diego
+		Eugenio_2
+		Facundo
+		Felipe
+		Francisco
+		Gustavo
+		Hilario
+		Inca
+		Isaac
+		Jose_Maria
+		Julio
+		Lorenzo
+		Manuel
+		Marcos
+		Mariano
+		Martin_2
+		Nicolas_2
+		Osvaldo
+		RenE_
+		Roberto
+		Simon_2
+		Tupac
+		Ulises
+		Victor_2
+	}
+	female_common_first_names = {
+		Angelica
+		Casimira
+		Felicita
+		Juanita
+		Luzmila
+		Mercedes
+		Micael
+		Nilda
+		Savina
+		Silvia
+	}	
+	noble_last_names = {
+		Collahuazo
+		Duchicela
+		Poma
+		Quispe
+		Santa_Cruz
+	}
+	common_last_names={
+		Arguedas
+		Barrientos
+		Cajahuanca
+		Canchata
+		Chambi
+		Chihuan
+		Cusurichi
+		Espejo
+		Frisancho
+		Gamarra
+		Guaman
+		Guayasamin
+		Gutierrez
+		Heredia
+		Humala
+		Iturri
+		Lazarte
+		Luduena
+		Melgarejo
+		Noguera
+		Palacios
+		Patino
+		Rodriguez
+		Roncaglia
+		Sosa
+		Sumac
+		Toledo
+		Vargas
+		Wallparrimachi
+	}
+	ethnicities = {
+		1 = native_american
+	}
+	graphics = generic
+}
+
+minority_central_american={
+	color={ 150 80 70 }
+	religion = animist
+	traits = { native_mesoamerican_culture_group indigenous_american_heritage }
+	male_common_first_names={
+		Agustin
+		Akbal
+		Alejandro
+		Andres
+		Antonio
+		Anibal
+		Armando
+		Bernardo
+		Carlos
+		Crescencio
+		Cristobal_2
+		Cuautehmoc
+		Diego
+		Felipe
+		Gaspar
+		Hernando
+		Hilario
+		Humberto
+		Ignacio
+		Jacinto
+		Jesus
+		Luis
+		Marcial
+		Martin_2
+		Miguel
+		Ramiro
+		Rodolfo
+		Rolando
+		Santiago
+		Yumil
+	}
+	female_common_first_names = {
+		Ana
+		Catarina
+		Concepcion
+		Cristina
+		Elvia
+		Felipa
+		Maria
+		Paula
+		Ramona
+		Rigoberta
+		Rosalina
+		Thelma
+	}	
+	noble_last_names = {
+		Ay
+		Ceel
+		Chan
+		Chi
+		Pat
+		Pec
+		Poot
+	}
+	common_last_names={
+		Ak_ab_al
+		Cal
+		Canek
+		Canul
+		Carrillo
+		Ceh
+		Chee
+		Choc
+		Coc
+		Curruchic
+		Ixquiac
+		Kan
+		Lopez
+		Manzanero
+		Mas
+		Menchu
+		Mes
+		Merida
+		Osorio
+		Pek
+		Pop
+		Puk
+		Shal
+		Sho
+		Tecu
+		Teul
+		Tuyuc
+		Xicara
+		Xiloj
+	}
+	ethnicities = {
+		1 = native_american
+	}
+	graphics = generic
+}
+
+minority_north_american={
+	color= hsv{ 0.63 0.30 0.52 }
+	religion = animist
+	traits = { indigenous_american_heritage north_american_group }
+	male_common_first_names={
+		Hehaka
+		Inkpaduta
+		Istahba
+		Mahpiya
+		Monkaushka
+		Sinte
+		Tamaha
+		Thahca
+		Thasunke
+		Thathanka
+		Thaoyate_Duta
+		Wanbdisapa
+		Wanata
+	}
+	female_common_first_names = {
+		Azayamankawin
+		Topahhdewin
+		Wakanmaniwin
+		Wakantakawin
+		Wakhan_Inazin_Win
+	}	
+	noble_last_names = {
+		Hakadah
+		Ohiya_S-a
+		Tamaha
+		Wakinyanduta
+		Wowinape
+	}
+	common_last_names={
+		Duta
+		Gleska
+		Huste
+		Iyotake
+		Kohkophapi
+		Kramarae
+		Luta
+		Pecan_Wakpa
+		Sapa
+		Thankja
+		Witko
+	}
+	ethnicities = {
+		1 = native_american
+	}
+	graphics = generic
+}
+
+minority_indian={
+	color= hsv{ 0.79 0.37 0.36 }
+	religion = hindu
+	traits = { hindustani dravidian south_asian_heritage }
+	male_common_first_names={
+		Ahmad
+		Alauddin
+		Alivardi
+		Hasan
+		Mansur
+		Mir_Muhammad
+		Mubarak
+		Murshid
+		Najimuddin
+		Quli
+		Reza
+		Saifuddaula
+		Shujauddin
+		Sirajuddaula
+		Waris
+		Wasif
+		Zainul
+	}
+	female_common_first_names = {
+		Iffat
+		Laila
+		Rahima
+		Rama
+		Razia
+		Selima
+		Sitara
+		Syeda
+		Tarana
+		Zohra
+	}
+	noble_last_names = {
+		Bahadur
+		Bogra
+		Deva
+		Mirza
+		Roy
+		Suhrawardy
+	}
+	common_last_names={
+		Ali
+		Chaudhury
+		Jafar
+		Muhammad
+		Najabut
+		Parvin
+		Qasim_Ali
+		Sarfaraz
+		Tajuddin
+	}
+	ethnicities = {
+		1 = asian
+	}
+	graphics = asian
+}
+
+minority_melayu={
+	color= hsv{ 0.33 0.10 0.74 }
+	religion = sunni
+	traits = { southeast_asian_heritage malay_culture }
+	male_common_first_names={
+		Kiras
+		Nerus
+		Tifatul
+	}
+	female_common_first_names = {
+		Atiqah
+		Fatin
+		Sari
+		Sharena
+	}	
+	noble_last_names = {
+		Manisia
+		Marga_Sinambela
+		Odapodap
+		Panglima
+	}
+	common_last_names={
+		Angkat
+		Bako
+		Bangun
+		Berasa
+		Berutu
+		Bintang
+		Capah
+		Cibro
+		Gajah
+		Kesogihen
+		Kaloko
+		Longga
+		Meka
+		Padang
+		Pasi
+		Saraan
+		Sinamo
+		Suka
+		Tendang
+		Tinendung
+		Turutan
+	}
+	ethnicities = {
+		1 = asian
+	}
+	graphics = asian
+}
+
+minority_east_asian={
+	color= hsv{ 0.1 0.43 0.34 }
+	religion = mahayana
+	traits = { east_asian_heritage }
+	male_common_first_names={
+		Chen
+		Deng
+		Feng
+		Hong
+		Huang
+		Li
+		Liao
+		Liu
+		Qiu
+		Shi
+		Shu
+		Soong
+		Sun
+		Tsai
+		Wu
+		Xie
+		Xue
+		Yang
+		Ye
+		Zhang
+		Zhen
+	}
+	female_common_first_names = {
+		Akew
+		Jin
+		Jinhong
+		Junying
+		Qingtang
+		Sanniang
+		Shanziang
+		Shih
+		Taiqing
+		Xiefen
+		Xiugu
+		Xuanjiao
+		Yu
+		Yunmei
+	}	
+	noble_last_names = {
+		Cui
+		Li
+		Nie
+		Zhang
+	}
+	common_last_names={
+		Dakai
+		Fengjia
+		Qiu
+		Rengan
+		Xiuqing
+		Xiuquan
+		Yatsen
+		Yongfu
+		Yucheng
+		Yunshan
+		Zicai
+	}
+	ethnicities = {
+		1 = asian
+	}
+	graphics = asian
+}
+
+minority_southeast_asian={
+	color= hsv{ 0.73 0.40 0.60 }
+	religion = theravada
+	traits = { southeast_asian_heritage }
+	male_common_first_names={
+		Anurutha
+		Chantha
+		Manthaturath
+		Nanthasen
+		Ong
+		Phraya
+		Sakkarin
+		Setthathirath
+		Sisavang
+		Sukha
+		Unkeo
+		Unkham
+	}
+	female_common_first_names = {
+		Kham-Oun
+		Khampeng
+		Khampinh
+		Khamune
+		Pheng
+		Samathi
+		Thongsy
+	}	
+	noble_last_names = {
+		Luang_Phrabang
+		Ong
+	}
+	common_last_names={
+		Anuvong
+		Bun
+		Intharavong
+		Kuman
+		Long
+		Supho
+		Som
+		Vong
+	}
+	ethnicities = {
+		1 = asian
+	}
+	graphics = asian
+}
+
+minority_central_asian={
+	color= hsv{ 0.01 0.46 0.59 }
+	religion = sunni
+	traits = { iranian_turanian_culture_group central_asian_heritage }
+	male_common_first_names={
+		Abd_al-Ahad
+		Abd_al-Karim
+		Abu_al-Ghazi
+		Abulfayz
+		Alimqul
+		Allah_Quli
+		Aqim
+		Haydar
+		Husayn
+		Iltazar
+		Isfandiyar
+		Jahangir
+		Khudayar
+		Madali
+		Mahmud
+		Muhammad
+		Murad
+		Nasir_al-Din
+		Nasrallah
+		Nurali
+		Pulad
+		Qilich
+		Qutlugh
+		Rahim
+		Shir
+		Umar
+		Yadigar
+		Yaqub
+	}
+	female_common_first_names = {
+		Halima
+		Irina
+		Mohlaroyim
+		Nargiz
+		Nazokat
+		Nilufar
+		Tursunoy
+		Yulduz
+		Zilola
+	}	
+	noble_last_names = {
+		Kokand
+		Bahadur
+		Khan
+	}
+	common_last_names={
+		Bahadur
+		Bukhari
+		Gulkhani
+	}
+	ethnicities = {
+		1 = central_asian
+	}
+	graphics = asian
+}
+
+minority_polynesian={
+	color= hsv{ 0.73 0.49 0.65 }
+	religion = animist
+	traits = { polynesian_group indigenous_oceanic_heritage }
+	male_common_first_names={
+		Finau
+		Havaiki
+		Iosefo
+		Lika
+		Longotahi
+		Malietoa
+		Taufa_ahau
+		Taupe
+		Tavita
+		Te_Taulu
+		Tupou
+		Ulukalala
+		Vaopuka
+		William
+	}
+	female_common_first_names = {
+		Auli'i
+		Elizabeth
+		Kina'u
+		Kaliko
+		Kamamalu
+		Kamaikui
+		Kekelaokalani
+		Mary
+		Pane
+		Pauahi
+		Pomare
+	}	
+	noble_last_names = {
+		Keliimaikai
+		Kalakaua
+		Kamehameha
+		Kawananakoa
+		Keoua
+		Pomare
+	}
+	common_last_names={
+		Feletoa
+		Ielemia
+		Ma_ufanga
+		Maeakafa
+		Moengangongo
+		Te_Fuli
+		Tuabayi
+	}
+	ethnicities = {
+		1 = polynesian
+	}
+	graphics = generic
+}
+
+minority_caucasian={
+	color= hsv{ 0.33 0.26 0.43 }
+	religion = orthodox
+	traits = { caucasus_group european_heritage }
+	male_common_first_names={
+		Akaki
+		Alexander
+		Andria
+		Bagrat
+		Besarion
+		David
+		Dimitri
+		Eduard
+		Ekvtime
+		Evgeni
+		Filipp
+		Galaktion
+		Georgi
+		German
+		Givi
+		Grigol
+		Ilia
+		Ioseb
+		Irakli
+		Ivane
+		Jansung
+		Jemal
+		Kaikhosro
+		Konstantine
+		Leo
+		Levan
+		Luka
+		Meliton
+		Mikheil
+		Murman
+		Nikoloz
+		Noe
+		Otar
+		Polikarp
+		Radish
+		Revaz
+		Sargis
+		Sergo
+		Shalva
+		Solomon
+		Sulkhan
+		Teimuraz
+		Tingiz
+		Vakhtang
+		Valerian
+		Vasil
+		Vladimer
+		Zakharia
+		Zurab
+		Zviad
+	}
+	female_common_first_names = {
+		Ana
+		Anastasia
+		Aneta
+		Babilina
+		Darejan
+		Dominika
+		Ekaterine
+		Eleonora
+		Esma
+		Ketevan
+		Mariam
+		Nino
+		Olga
+		Rusudan
+		Tekle
+		Vera
+	}	
+	noble_last_names = {
+		Abashidze
+		Dadeshkeliani
+		Dadiani
+		Guramishvili
+		Melikishvili 
+		Nikoladze
+		Orbeliani
+		Tumanishvili
+		Tsereteli
+		Tsitsishvili
+	}
+	common_last_names={
+		Abkhazi
+		Amilakhvari
+		Avalishvili
+		Bagratuni
+		Bakradze
+		Balanchivadze
+		Barakadze
+		Chabukiani
+		Chavchanadze
+		Chkhubianashvili
+		Cholokashvili
+		Chubinashvili
+		Dodashvili
+		Eliava
+		Gabashvili
+		Gokhieli
+		Gordeli
+		Javakhisvili
+		Jugashvili
+		Jugheli
+		Kakabadze
+		Kandelaki
+		Kartvelishvili
+		Kavtaradze
+		Kereselidze
+		Khelaia
+		Khvitia
+		Kvinitadze
+		Leselidze
+		Maglakelidze
+		Makharadze
+		Mazniashvili
+		Mikeladze
+		Muskhelishvili
+		Nioradze
+		Nutsubideze
+		Otskheli
+		Ramishvili
+		Razikashvili
+		Sabinin
+		Shanidze
+		Sukhisvili
+		Tabidze
+		Takaishvili
+		Tsereteli
+		Tsintsadze
+		Uznadze
+		Zhordania
+	}
+	ethnicities = {
+		1 = slavic
+	}
+	graphics = european
+}
+
+minority_midde_east={
+	color= rgb{ 154 164 89 }
+	religion = sunni
+	obsessions = {
+		coffee
+	}
+	traits = { arab_speaking middle_eastern_heritage }
+	male_common_first_names={
+		Abd_Allah
+		Abd_al-Karim
+		Abd_al-Malik
+		Abd_al-Qadir
+		Abd_al-Rahman
+		Abu_Bakr
+		Ahmad
+		Ali
+		Fawzi
+		Fuad
+		Halil
+		Hasan
+		Hisham
+		Ibrahim
+		Ishaq
+		Iskandar
+		Ja_far
+		Jamal
+		Kamil
+		Khalid
+		Muhammad
+		Mustafa
+		Nur_al-Din
+		Sa_d_al-Din
+		Sa_ud
+		Salim
+		Shukri
+		Tawfiq
+		Umar
+		Uthman
+		Yahya
+		Yusuf
+		Zafir
+	}
+	female_common_first_names = {
+		Bahiya
+		Fahda
+		Ghaliyya
+		Haifa
+		Hamida
+		Hassa
+		Iffat
+		Latifa
+		Lolwah
+		Maha
+		Noura
+		Sultana
+	}	
+	noble_last_names = {
+		al_Hashimi
+		Al_Maktoum
+		Al_Mualla
+		al_Nuaimi
+		al_Qasimi
+		al_Rashid
+		al_Saud
+		Al_Sharqi
+		al_Ulayyan
+	}
+	common_last_names={
+		al-Hijazi
+		al-Najdi
+		ibm_Kamil
+		ibn_Abd_Allah
+		ibn_Abd_al-Qadir
+		ibn_Abu_Bakr
+		ibn_Ahmad
+		ibn_Ali
+		ibn_Fuad
+		ibn_Halil
+		ibn_Hasan
+		ibn_Hisham
+		ibn_Ishaq
+		ibn_Ja_far
+		ibn_Khalid
+		ibn_Muhammad
+		ibn_Mustafa
+		ibn_Salim
+		ibn_Umar
+		ibn_Uthman
+		ibn_Yusuf
+	}
+	ethnicities = {
+		1 = arab
+	}
+	graphics = mideast_indian
+}
+
+minority_baltic={
+	color= hsv{ 0.42 0.48 0.83 }
+	religion = catholic
+	traits = { baltic_culture_group european_heritage }
+	male_common_first_names={
+		Adolfas
+		Aleksandras
+		Algirdas
+		Andrius
+		Antanas
+		Arturas
+		Arunas
+		Augustinas
+		Balys
+		Boris
+		Bronislovas
+		Danielius
+		Darius
+		Gendiminas
+		Henrikas
+		Jonas
+		Jonusas
+		Juozas
+		Juras
+		Jurgis
+		Justas
+		Kazimieras
+		Kazys
+		Kipras
+		Konstantinas
+		Lukas
+		Marijus
+		Markas
+		Mikalojus
+		Mindaugas
+		Motejus
+		Mykolas
+		Paulius
+		Petras
+		Povilas
+		Ramunas
+		Ringaudas
+		Rolandas
+		Simonas
+		Stasys
+		Steponas
+		Tadas
+		Valdas
+		Valdemaras
+		Viktoras
+		Vilhelmas
+		Visvaldas
+		Vladimiras
+		Vygantas
+		Vytautas
+		Zydrunas
+	}
+	female_common_first_names = {
+		Aurelija
+		Birute
+		Dalia
+		Edita
+		Elena
+		Emma
+		Gabriele
+		Ieva
+		Julija
+		Meilute
+		Miriam
+		Ona
+		Salomeja
+		Sofija
+		Justina
+	}	
+	noble_last_names = {
+		Cartoriskis
+		Glinskis
+		Gostautas
+		Kallaur
+		Kosakovskis
+		Krupskis
+		Manvydas
+		Oginskis
+		Ostrogiskis
+		Pacas
+		Plater
+		Stasjevicis
+		Tiskevicis
+		Tyzenhauzas
+		Visnioveckis
+	}
+	common_last_names={
+		Adamkus
+		Almenas
+		Avizienis
+		Baltrusaitis
+		Basanavicius
+		Birutis
+		Bradziunas
+		Brazauskas
+		Buga
+		Ciurlionis
+		Danauskas
+		Daukantas
+		Dobkevicius
+		Dubeneckis
+		Dvarionas
+		Dauksa
+		Galdikas
+		Grinius
+		Griskevicius
+		Ivanauskas
+		Jablonskis
+		Jucys
+		Krupavicius
+		Landsbergis
+		Lozoraitis
+		Merkys
+		Paksas
+		Paleckis
+		Paulauskas
+		Petrauskas
+		Piskarkas
+		Pozela
+		Radvila
+		Sabaniauskas
+		Schatz
+		Semtona
+		Simonavicius
+		Sirvydas
+		Slezevicius
+		Snieckus
+		Stauaitis
+		Straizys
+		Stulginkis
+		Svedas
+		Terleckas
+		Urbsys
+		Vagnorius
+		Valeska
+		Voldemaras
+		Zemaitis
+		Zuokas
+	}
+	ethnicities = {
+		1 = slavic
+	}
+	graphics = european
+}
+
+minority_scandinavian={
+	color= hsv{ 0.64 0.57 0.62 }
+	religion = protestant
+	traits = { scandinavian_culture_group european_heritage }
+
+	male_common_first_names={
+		Albrecht Alexander Aron Arnold Anton August Axel Albert Anders Adolf Andreas Abraham Axel_Knut
+		Baltzar Bror Bengt Bo BjO_rn
+		Carl Christofer Charles Carl_Edvard Carl_Fredrik Carl_GO_ran Carl_Adam Carl_Axel
+		Daniel Didrik David
+		Edvard Elias Erkers Emil Erik Esaias Emanuel Eric Enar Erik_Gustaf
+		Fabian Frans Fredrik Fritz
+		Gunnar Gustav Gustaf Gustaf_Adam Gustaf_Adolf
+		Henrik Hans HA_kan Henning Herman
+		Isak
+		Jakob Jesper Johan Julius Jonas Jon JO_ns Jan Johannes Johan_Fredrik Jules
+		Karl Knut Klas
+		Lars Lorentz Ludvig Leif
+		Magnus Mikael Martin Michael Mats Mattias MA_rten
+		Nikolaus Nils Niklas Nils_Samuel Nils_August
+		Olof Oscar Ola Otto Olaus
+		Per Petter Peter Pehr
+		Rudolf
+		Sten Sven Stefan Simon Samuel Svante
+		Theodor Thomas
+		Ulf
+		Verner Viktor Vilhelm Wilhelm
+		Zacharias
+	}
+	female_common_first_names = {
+		Anna Agda Amalia Augusta
+		Birgitta Brita Bengta Britta
+		Carolina Christina Charlotta
+		Erika Eva Emma Elna
+		Fredrika Fenni
+		Gerda Gustafva Greta
+		Hanna Helga Helena
+		Ingrid Inga Ida
+		Johanna Josefina
+		Kristina Kajsa Klara Karin Kerstin Karolina Karna
+		Louise Lovisa
+		Margaretha Matilda Maja Maria Mathilda Matilda
+		Sofie Sanna Stina Sofia Sara
+		Ulrika
+		Wilhelmina
+	}	
+	noble_last_names = {
+		Almqvist
+		af_Ugglas af_Klint af_RosenschO_ld
+		Beck-Friis Berlin Brummer Brahe Brakenhielm Bremer Breitholtz Bildt
+		Casparsson CederstrO_m Crusebjorn
+		De_Geer Dickson de_Laval
+		Ehrengranat EhrensvA_rd Ehnemark Ehrenstam
+		Faxe Funck Fleetwood
+		Gyldenstolpe Gyllenstierna Gyllengranat
+		Hamilton Hermelin Hallenborg
+		Koskull Kuylenstjerna
+		Lagersvank Lagerbjelke Leijonhufvud
+		Morner Meijer
+		Nordenfalk Nordenfeldt Nordenskiold
+		Odelberg
+		Palmstierna Piper Palanger_af_Vega Palmstierna
+		Raab Reuterskiold Rappe Rosensvard
+		Sprengtporten Stiernblad SilfverschiO_ld Storckenfeldt Sprengtportem  Schartau
+		Trolle TornE_rhjelm Tawast Thulstrup Tingsten
+		von_Essen von_Ehrenheim von_Fersen von_Hohenhausen von_Otter von_Platen von_Schwerin von_Gegerfelt von_Koch von_Geijer von_Holstein von_MO_ller von_Hofsten
+		Weidenhielm Wallenberg Wachtmeister Windahl
+	}
+	common_last_names={
+		Andersson Arenius Adlersparre Almquist Abelin Axelsson Arvidsson Andreasson
+		Bergstedt Berggren Borg Bjornstjerna BillstrO_m BjO_rck Brusewitz BjO_rkenstam Beckman Bennich Bergman Bernardotte Blomqvist Bengtsson Berg BergstrO_m Berglund BjO_rk Berggren Blom
+		Casparsson Caspersson Christerson Carlberg Croneborg Cassel Cronstedt Carlsson
+		Dahlberg Dyrssen Danielsson Dahl
+		Ekman Ekenman Eriksson Eklund EngstrO_m Eliasson Ek
+		FA_hrAE_us FrO_man Fredriksson Forsberg Fransson
+		Gyllenram Gustafsson Gustavsson Gunnarsson
+		Hammar Holmgren Haeggman Holmberg Hasselrot Herlenius Hammarhjelm HeijkenskjO_ld Hansson Henriksson Holm HA_kansson Hermansson Holmgren Hedlund HellstrO_m
+		Ingelman Isaksson
+		Johansson Jons Jonsson Jansson JO_nsson Jakobsson Johnsson Jonasson
+		Karlsson
+		Larsson Lindman Lundell Lindberson Lohmander LilliehO_O_k Lagerberg LagerstrA_le Landgren Lagercrantz Lindberg Lindgren LindstrO_m Lundberg Lundgren Lindqvist Lundin Lind Lundqvist
+		Meyer Munthe Malmsten Magnusson Mattsson MA_rtensson Martinsson Abrahamsson
+		Nordenfelt Nisser NordstrO_m Nilsson Nyberg NystrO_m
+		Oltner Olsson Olofsson
+		Peyron Petre Persson Pettersson	Petersson
+		Rosengren Rettig Ros Rydin Ryding
+		Samuelsson StA_lhammar Sparre Sahlin Selggren Selander Svensson Sandberg SjO_berg Strom SO_derberg 	Sundberg
+		Tiger Tulldahl Thorburn Troilius Tersmeden Taube Thornell
+		Ulner Uggla
+		Virgin
+		Wadensten Westman WAE_rn Wallin
+	}
+	male_regal_first_names = {
+		Carl Carl_Johan
+		Gustaf Gustaf_Adolf
+		Johan
+		Oscar
+		Sigismund
+	}
+	female_regal_first_names = {
+		Kristina
+		Louise
+		Sofia
+		Ulrika_Eleonora
+		Victoria
+	}
+	regal_last_names = {
+		von_Hesse
+		von_Holstein_Gottorp
+		von_Wittelsbach
+	}
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}
+
+minority_west_slavic={
+	color= hsv{ 0 0.22 0.5 }
+	religion = catholic
+	traits = { west_slavic european_heritage }
+	male_common_first_names={
+		Adam
+		Aleksander
+		Antoni
+		Boleslaw
+		Bonawentura
+		Bronislaw
+		Dezydery
+		Edmund
+		Edward
+		Emil
+		Eustachy
+		Felicjan
+		Franciszek
+		Gustaw
+		Henryk
+		Ignacy
+		Jakub
+		Jan
+		Jedrzej
+		Juliusz
+		Jozef_2
+		Karol
+		Kazimierz
+		Klemens
+		Konstanty
+		Lech
+		Leon_2
+		Leopold
+		Lucjan
+		Ludwik
+		Maciej
+		Marceli
+		Marian
+		Mariusz
+		Melchior
+		Michal
+		Mieczyslaw
+		Rodryg
+		Roman
+		Romuald
+		Samuel
+		Stanislaw
+		Stefan
+		Tadeusz
+		Tomasz
+		Waclaw
+		Wilhelm
+		Witold
+		Wladyslaw
+		Wojciech
+		Zygmunt
+	}
+	female_common_first_names = {
+		Anna
+		Barbara
+		Eleonora
+		Elzbieta
+		Emilia
+		Ewelina
+		Franciszka
+		Gertruda
+		Helena
+		Izabela
+		Jozefa
+		Karolina
+		Konstancja
+		Maria
+		Marianna
+		Paula
+		Regina
+		Stefania
+		Teresa
+		Ursula
+		Zofia
+	}	
+	noble_last_names = {
+		Bor-Komorowski
+		Dunin
+		Glowacki
+		Hauke-Boask
+		Iwaszkiewicz
+		Pilsudski
+		Plater
+		Potocki
+		Radziwill
+		Rola-Zymierski
+		Rydz-Smigly
+		Sapieha
+		Tutkowski
+		Wielopolski
+		Wieniawa-Dlugoszowski
+		Maklowicz
+		Lankowski
+	}
+	common_last_names={
+		Bem
+		Brzoska
+		Bukowicz
+		Chalasinski
+		Chlaposwski
+		Chlopicki
+		Chrzanowski
+		Dabrowski
+		Dembinski
+		Drzymala
+		Fabrycy
+		Idzikowski
+		Jasinski
+		Klicki
+		Konopczynski
+		Krukowiecki
+		Kruszewski
+		Kozlowski
+		Langiewicz
+		Madalinski
+		Mieroslawski
+		Mikolajczyk
+		Mokronowski
+		Niepokolczycki
+		Nowak
+		Ostrowski
+		Pac
+		Poniatowski
+		Preadzynski
+		Rokossowski
+		Rybinski
+		Rozicky
+		Sanguszko
+		Skrzynecki
+		Soltyk
+		Sowinski
+		Taczaneowski
+		Traugutt
+		Wawrzecki
+		Wybicki
+		Wysocki
+		Zajaczek
+		Zaluski
+		Zamoyski
+		Zeligowski
+	}
+	ethnicities = {
+		1 = slavic
+	}
+	graphics = european
+}
+
+minority_spanish={
+	color= hsv{ 0.16 0.56 0.86 }
+	religion = catholic
+	traits = { iberian_culture_group hispanophone european_heritage }
+	male_common_first_names={
+		Agustin
+		Alberto
+		Alejandro
+		Alfonso
+		Antonio
+		Antonio_Maria
+		Arsenio
+		Augusto
+		Baldomero
+		Baltasar
+		Benito
+		Bernardino
+		Bernardo
+		Calixto
+		Carlos
+		Celestino
+		Claudio
+		Cristobal
+		Diego
+		Dionisio
+		Damaso
+		Eduardo
+		Emilio
+		Estanislao
+		Federico
+		Felipe
+		Fernando
+		Francisco
+		Francisco_Javier
+		Felix
+		Gabino
+		Gabriel
+		Gaspar
+		Genaro
+		Gonzalo
+		Ignacio
+		Isidro
+		Jacobo
+		Jaime
+		Joaquin
+		Jose
+		Jose_Antonio
+		Jose_Manuel
+		Jose_Maria
+		Juan
+		Juan_Bautista
+		Julio
+		Jorge
+		Leopoldo
+		Lorenzo
+		Luis
+		Manuel
+		Marcelo
+		Mariano
+		Mateo
+		Melchor
+		Miguel
+		Nicolas_2
+		Pablo
+		Pascual
+		Pedro
+		Rafael_2
+		Raimundo
+		Ramon
+		Ricardo
+		Santiago
+		Sebastian
+		Segismundo
+		Valeriano
+		Vicente
+		Alvaro
+	}
+	female_common_first_names = {
+		Adelaida
+		Alejandrina
+		Amalia
+		Antonia
+		Bonifacia
+		Carlota
+		Clotilde
+		Concepcion
+		Dolores
+		Emilia
+		Enriqueta
+		Eulalia
+		Faustina
+		Francisca
+		Guillermina
+		Herminia
+		Isabella
+		Joaquina
+		Manuela
+		Maria_2
+		Mariana
+		Martina
+		Robustiana
+		Rosa
+		Sabina
+		Teresa
+	}	
+	noble_last_names = {
+		Alvarez_de_Toledo de_Albornoz de_ArmendA_riz de_Almansa de_AlO_s de_Arteche
+		Barrionuevo de_Bohorques de_Bernuy de_Bago
+		Cabrera Cagigal_de_la_Vega Colon de_Carvajal del_Carmen_Contreras
+		DI_ez_de_Rivera de_Domecq
+		Fernandez_de_Cordoba de_la_Fuente Fitz-James_Stuart de_Figueroa Flores_de_SeptiE_n FernA_ndez-Zapata FernA_ndez_de_CO_rdoba
+		Garcia_de_la_Noceda GirO_n de_GuzmA_n de_Godoy GonzA_lez_de_Cienfuegos Grimaldi
+		Hidalgo_de_Cisneros
+		JordA_n_de_UrrI_es
+		LO_pez_de_Haro de_Llorach
+		MessI_a de_Mercader de_Mora de_Medina del_Milagro_Quesada
+		Ortiz_de_la_Riva O_Donnell Osorio_de_Moscoso de_Orozco
+		Primo_de_Rivera PE_rez_de_Herrasti de_Palafox PE_rez_de_GuzmA_n PiN_eiro de_Pedro del_Pilar_Osorio
+		de_QuirO_s de_Quintanilla
+		RamI_rez_de_Saavedra del_Rosario_FalcO_ del_Rosario_Vereterra de_Rojas de_Riquer Ruiz_de_Arana
+		SuA_rez_de_ArgudI_n de_Silva de_SatrU_stegui SaI_nz_de_la_Maza de_Samaniego de_Sentmenat de_Salavert de_Santiago_Concha Sanchiz
+		de_Tineo
+		de_Urquijo de_Uzqueta
+		de_Valda del_Valle de_Villalonga de_la_Vera ValdE_s
+		de_ZufI_a
+	}
+	common_last_names={
+		Acuna Aguirre Alcala-Zamora Allendesalazar Alonso Aranda Arguelles-Meres Asensio Aznar Alvarez Acedo Arabolaza Arrate Artola Aranzadi
+		Barradas Bugallal BotI_n Bonilla Belaunde Blanco
+		Cano Cervera Corsi Cuadrada Comamala
+		Diaz_2 DomI_nguez
+		Espartero Escoda EguiazA_bal
+		Fernandez Franco Fajardo
+		Garcia Gonzalez Gil Grasset Galatas
+		Heredia Hernandez Herrera Hevia
+		Izaguirre
+		Linares Lopez Lorenzana Landazabal LarraN_aga
+		Maroto Martinez-Campos Maura Menendez Miaja Millan-Astray Mina Mola Munoz Marquez MelE_ndez MedizA_bal Muguerza Moreira Mandiola Muguruza
+		Narvaez
+		Ortega Otero Onsalo OrdO_N_ez Olaso Ozores
+		Pavia Perez PajarO_n Pagaza Pattullo Pena
+		Queipo_de_Llano Quintana Quirante
+		Rodriguez Rojo Ruiz Reparez Ruete
+		Sanjurjo Serrano Silvestre Samitier Serrano Saprissa
+		Topete Tuduri Terradas Torralba
+		Valdes Varela Villapol Villar Vela Villota Vilalta Vallana VA_zquez
+		Weyler
+		Yague
+		Zamora Zabala
+	}
+	male_regal_first_names={
+		Alfonso Amadeo
+		Carlos
+		Felipe Fernando
+		Jose Juan_Carlos
+		Luis
+	}
+	female_regal_first_names={
+		Beatriz
+		Eulalia
+		Isabel
+		Luisa_Fernanda
+		Maria_2 MarI_a_Teresa
+	}
+	regal_last_names = {
+		de_BorbO_n
+		de_BorbO_n_Anjou
+		de_BorbO_n_Parma
+		de_Habsburgo
+		de_Orleans
+		de_Saboya
+		de_Wittelsbach
+	}	
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}
+
+minority_iberian={
+	color= hsv{ 0.07 0.56 0.86 }
+	religion = catholic
+	traits = { iberian_culture_group european_heritage }
+	male_common_first_names={
+		Albert
+		Alexandre
+		Alfons
+		Alfonso
+		Andreu
+		Andres
+		Antoni
+		Arcadi
+		Carles
+		Cassia
+		Dalmau
+		David
+		Eduard
+		Enric
+		Enrique
+		Federico
+		Felip
+		Fernando
+		Ferran
+		Francesc
+		Gaspar
+		Gerard
+		Isaac
+		Jacint
+		Jaume
+		Joan
+		Jordi
+		Josep
+		Jose
+		Juan
+		Llorenc
+		Lluis
+		Manel
+		Manuel
+		Marc
+		Melchor
+		Miquel
+		Narcis
+		Pasqual
+		Pau
+		Pedro
+		Pere
+		Pompeu
+		Rafael_2
+		Rafel
+		Ramon_2
+		Ricardo
+		Salvador
+		Sergi
+		Valnti
+		Victor
+		Xavier
+	}
+	female_common_first_names = {
+		Ana
+		Assumpcio
+		Carolina
+		Carme
+		Dolores
+		Ester
+		Josefina
+		Isabel
+		Lluisa
+		Maria
+		Rosa
+		Susana
+	}	
+	noble_last_names = {
+		d_Areny-Plandolit
+		de_Llauder_i_Dalmases
+		de_Mas_i_Nadal
+		de_Suelves_i_de_Montagut
+		Ferrer
+		Folc_de_Cardona
+		Guell
+		Janer
+		Junyent
+		Lopez_i_Bru
+		Milans_del_Bosch
+	}
+	common_last_names={
+		Albeniz
+		Alier
+		Almirall
+		Bacardi
+		Batet
+		Berenguer
+		Bonaplanta
+		Borrell
+		Borras
+		Cadafall
+		Carner
+		Casals
+		Casanova
+		Castello
+		Claramunt
+		Cucala
+		Cugat
+		Dalmau
+		Despujol
+		Domenech
+		Escotet
+		Escoda
+		Fabra
+		Fages
+		Gumera
+		Irla
+		Jevelli
+		Llauder
+		Macia
+		Maragall
+		Margall
+		Miro
+		Mompou
+		Montaner
+		Moragues
+		Moret
+		Nebot
+		Nin
+		Oller
+		Prat
+		Prim
+		Puig
+		Riba
+		Roig
+		Sala
+		Saliquet
+		Savalls
+		Serra
+		Sor
+		Tristany
+		Verdaguer
+		Vidal
+		Virigili
+		Vives
+	}
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}
+
+minority_thai={
+	color= hsv{ 0.61 0.29 0.58 }
+	religion = theravada
+	traits = { tai southeast_asian_heritage }
+	male_common_first_names={
+		Chao Chulalongkorn Charoon
+		Kashemsri
+		Isariyalongkorn
+		Mongkut Mahidol
+		Nangklao Naritsaranuwatiwong Nuam
+		Phya Plaek Prajadhipok Piyararangsit
+		Rangsit
+		Sirivongse Sanidh_Prayurasakdi
+		Tuam Traidos
+		Vajiravudh
+		Yod
+	}
+	female_common_first_names = {
+		Adorndibyanibha Abbhantripaja
+		Bandhavanna Bismai
+		Chandra Chudharatana
+		Debsirindra
+		Javalit
+		Prabha Prabai Pun
+		Sirikit Sirabhorn
+		Thao
+		Valaya Vichitra
+		Yaovabha
+	}	
+	noble_last_names = {
+		Chakri
+		Praya_Siri
+	}
+	common_last_names={
+		Bunnag
+		Chichalerm
+		Devahastin
+		Hutasingha
+		Inswang
+		Kridakorn 
+		Nitithada
+		Phonphayuhasena Phahonyothin Praband Polphantin
+		Rabibadhana
+		Saovabha Suriyawongse Sinhaseni Sumontame Silpikul
+		Thephatsadin
+		Yuktanandana
+	}
+	male_regal_first_names={
+		Rama
+	}
+	ethnicities = {
+		1 = asian
+	}
+	graphics = asian
+}
+
+minority_burmese={
+	color= hsv{ 0.13 0.42 0.38 }
+	religion = theravada
+	traits = { burmese_language southeast_asian_heritage }
+	male_common_first_names={
+		Alaungphaya
+		Bodawphaya
+		Gabyidaw
+		Hsinbyushin
+		Maha
+		Maung
+		Mindon
+		Minkyaw
+		Naungdawkyi
+		Pagan
+		Singu
+		Tharawadi
+		Thibaw
+		Zeya
+	}
+	female_common_first_names = {
+		Chandra
+		Hsinbyumashin
+		Supayalat
+	}	
+	noble_last_names = {
+		Konbaung
+		Sao
+		Min
+	}
+	common_last_names={
+		Bagyidaw
+		Bandula
+		Dabayin
+		Myo
+		Ne_Myo
+		Thura
+	}
+	ethnicities = {
+		1 = asian
+	}
+	graphics = asian
+}
+
+minority_khmer={
+	color= hsv{ 0.04 0.54 0.86 }
+	religion = theravada
+	traits = { khmer_language southeast_asian_heritage }
+	male_common_first_names={
+		Ang
+		Norodom
+		Pok
+		Satha
+		Sisowath
+		Thommo
+	}
+	female_common_first_names = {
+		Aut
+		Bunlei
+		Di
+		Mey
+		Ros
+		Vanthy
+		Vara
+	}	
+	noble_last_names = {
+		Ang
+		Varman
+	}
+	common_last_names={
+		Chan
+		Em
+		Eng
+		Mey
+		Non
+		Reachea
+		Sieng
+		Sinn
+		Snguon
+		Tong
+	}
+	ethnicities = {
+		1 = south_east_asian
+	}
+	graphics = asian
+}
+
+minority_siberian={
+	color= hsv{ 0.50 0.50 0.84 }
+	religion = animist
+	traits = { north_asian_heritage siberian_culture_group }
+	male_common_first_names={
+		Afanasiy
+		Aleksandr
+		Alitet
+		Diniyar
+		Donduk
+		Gabdull
+		Grigory
+		Mirsayet
+		Sihabetdin
+		Viktor
+	}
+	female_common_first_names = {
+		Galina
+		Sainkho
+	}	
+	noble_last_names = {
+		Khan
+	}
+	common_last_names={
+		Bilyaletdinov
+		Chaoke
+		Khovalyg
+		Krakovetsky
+		Nemtushkin
+		Nulgynet
+		Potanin
+		Shaimiev
+		Shashkov
+		Shchapov
+		Yadrintsev
+	}
+	ethnicities = {
+		1 = circumpolar
+	}
+	graphics = asian
+}

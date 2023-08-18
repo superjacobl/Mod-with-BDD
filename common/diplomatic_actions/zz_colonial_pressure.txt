@@ -1,0 +1,44 @@
+﻿# URGENT
+colonial_pressure = { #ALWAYS CHECK BEFORE UPLOADING
+	requires_approval = no
+	can_use_obligations = no
+	can_select = no
+
+	unlocking_technologies = {
+		international_trade
+	}
+
+	potential = {
+		is_ai = no
+		scope:target_country = {
+			is_ai = yes
+			has_law = law_type:law_no_colonial_affairs
+		}
+	}
+
+	possible = {
+		is_ai = no
+		scope:target_country = {
+			is_ai = yes
+			has_law = law_type:law_no_colonial_affairs
+		}
+	}
+
+	accept_effect = {
+		if = {
+			limit = {
+				scope:target_country = {
+					has_law = law_type:law_homesteading
+				}
+			}
+			scope:target_country = {
+					activate_law = law_type:law_colonial_resettlement
+			}			
+		}
+		else = {
+			scope:target_country = {
+				activate_law = law_type:law_colonial_exploitation
+		}	
+		}
+	}
+}

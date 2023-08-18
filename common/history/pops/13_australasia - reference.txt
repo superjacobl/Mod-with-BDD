@@ -1,0 +1,8 @@
+﻿minority_polynesian
+aborigine
+maori
+
+
+keep
+australian
+irish

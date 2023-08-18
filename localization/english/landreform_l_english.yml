@@ -1,0 +1,20 @@
+﻿l_english:
+ # Modifiers
+ land_redistribution_modifier:0 "Land Redistribution"
+
+ # Ownership
+ #  pmg_ownership:0 "Ownership"
+ #  pmg_ownership_building_subsistence:0 "$pmg_ownership$"
+
+ #  pm_privately_owned_building_subsistence:0 "Estates"
+ #  pm_estate_owned_agriculture:0 "Estates"
+ #  pm_publicly_traded_estates_agriculture:0 "Publicly Traded Estates"
+ #  pm_restricted_ownership_building_subsistence:0 "Restricted Estates"
+ #  pm_smallholding_building_subsistence:0 "Smallholding"
+ #  pm_smallholder_agriculture:0 "Smallholding"
+ #  pm_smallholder_plantation:0 "Smallholding"
+ #  pm_publicly_traded_smallholder_agriculture:0 "Publicly Traded"
+ #  pm_publicly_traded_smallholder_plantation:0 "Publicly Traded"
+ #  pm_free_soil_building_subsistence:0 "Homesteading"
+ 
+

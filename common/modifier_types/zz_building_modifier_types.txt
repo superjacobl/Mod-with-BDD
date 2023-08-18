@@ -1,0 +1,24 @@
+﻿##### https://i.imgur.com/r87TF1s.png #####
+state_unincorporated_building_group_bg_manufacturing_throughput_mult = {
+    good = yes
+    percent = yes
+    num_decimals = 0
+}
+
+state_unincorported_pop_qualifications_mult = {
+	good = yes
+	percent = yes
+    num_decimals = 0
+}
+
+building_category_rural_unincorporated_rural_throughput_mult = {
+    good = yes
+    percent = yes
+    num_decimals = 0
+}
+##### END #####
+
+building_group_bg_rubber_throughput_mult = {
+    good = yes
+	percent = yes
+}

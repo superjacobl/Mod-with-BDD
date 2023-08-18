@@ -1,0 +1,505 @@
+﻿on_monthly_pulse_country = {
+	on_actions = {
+		colonial_exploitation_check_on_action
+	}
+}
+
+### This is a very old and needlessly cumbersome on_action that i should really rewrite. Its.. how do they say? Cringe ###
+colonial_exploitation_check_on_action = {
+	effect = {
+		if = {
+			limit = {
+				ROOT = {
+					has_law = law_type:law_colonial_exploitation
+					any_scope_state = {
+						is_incorporated = no
+						is_treaty_port = no
+						NOT = {
+							has_modifier = zz_colonial_exploitation
+						}
+					}
+				}
+			}
+			ROOT = {
+				every_scope_state = {
+					limit = {
+						owner = ROOT
+						is_incorporated = no
+						is_treaty_port = no
+						NOT = {
+							has_modifier = zz_colonial_exploitation
+						}					
+					}
+					add_modifier = {
+						name = zz_colonial_exploitation
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				ROOT = {
+					OR = {
+						AND = {
+							has_law = law_type:law_colonial_exploitation
+							any_scope_state = {
+								is_incorporated = yes
+								has_modifier = zz_colonial_exploitation
+							}
+						}
+						AND = {
+							NOT = { has_law = law_type:law_colonial_exploitation }
+							any_scope_state = {
+								is_incorporated = no
+								has_modifier = zz_colonial_exploitation
+							}
+						}
+					}
+				}
+			}
+			every_scope_state = {
+				if = {
+					limit = {
+						owner = {
+							NOT = {
+								has_law = law_type:law_colonial_exploitation
+							}
+						}
+						is_incorporated = no
+						has_modifier = zz_colonial_exploitation					
+					}
+					remove_modifier = zz_colonial_exploitation
+				}
+				if = {
+					limit = {
+						owner = {
+							has_law = law_type:law_colonial_exploitation
+						}
+						is_incorporated = yes
+						has_modifier = zz_colonial_exploitation					
+					}
+					remove_modifier = zz_colonial_exploitation
+				}
+			}
+		}
+	}
+}
+
+# Root = Country
+# scope:target = Uprising country
+on_secession_end = {
+	effect = {
+		if = {
+			limit = {
+				exists = c:ITA
+				scope:target = {
+					OR = {
+						country_has_primary_culture = cu:north_italian
+						country_has_primary_culture = cu:south_italian
+					}
+				}
+			}
+			c:ITA = { annex = scope:target }
+		}
+#		if = {
+#			limit = {
+#				exists = c:GER
+#				scope:target = {
+#					can_form_nation = GER
+#				}
+#			}
+#			scope:target_country = {
+#				THIS = c:GER
+#				annex = scope:target
+#			}
+#		}
+	}
+}
+
+# Root = Country
+# This action is triggered after `on_revolution_end`
+on_civil_war_won = {
+	effect = {
+		if = {
+			limit = {
+				has_global_variable = achievement_revo_needed
+			}
+			set_global_variable = achievement_revolutionary
+		}
+		if = {
+			limit = {
+				has_journal_entry = je_meiji_restoration
+				has_variable = anti_shogunate_civil_war
+				has_variable = shogunate_var
+			}
+			change_variable = {
+				name = shogunate_var
+				add = 120
+			}
+			remove_variable = anti_shogunate_civil_war
+		}
+		if = {
+			limit = {
+				has_variable = anti_monarchist_revolution
+			}
+			if = {
+				limit = {
+					NOT = {
+						has_law = law_type:law_monarchy
+					}
+				}
+				set_variable = {
+					name = abolishing_monarchy_var
+					value = 0
+				}
+				add_journal_entry = { type = je_abolish_monarchy }
+			}
+			remove_variable = anti_monarchist_revolution
+		}
+		if = {
+			limit = {
+				has_variable = revolutionary_prov_gov_var
+			}
+			trigger_event = { id = provisional_government_events.1 days = 7 popup = yes }
+		}
+
+		if = { # URGENT
+			limit = {
+				c:FRA ?= this
+				NOT = {
+					has_modifier = fra_secular_legacy
+				}
+				NOT = {
+					has_game_rule = leave_france_alone
+				}
+			}
+			add_modifier = fra_secular_legacy
+		}
+
+		##### FRENCH MONARCHISTS WHEN A CIVIL WAR IS WON #####
+
+		### Orleanists
+		if = {
+			limit = {
+				c:FRA ?= this
+				has_law = law_type:law_monarchy
+				any_interest_group = {
+					is_in_government = yes
+					is_strongest_ig_in_government = yes
+					leader = {	
+						has_ideology = ideology:ideology_orleanist
+					}
+				}
+				NOT = { has_variable = one_true_french_dynasty }
+			}
+
+			### Reset AI to support Orleanists. Players can continue to support any dynasty they like ###
+			if = {
+				limit = {
+					is_player = no
+					has_variable = supporting_bonapartist_var
+				}
+				remove_variable = supporting_bonapartist_var
+			}
+			if = {
+				limit = {
+					is_player = no
+					has_variable = supporting_legitimist_var
+				}
+				remove_variable = supporting_legitimist_var
+			}
+			if = {
+				limit = {
+					is_player = no
+					NOT = { has_variable = supporting_orleanist_var }
+				}
+				set_variable = {
+					name = supporting_orleanist_var
+				}
+			}
+			### 
+
+			# Generate an Orleanist monarch if somehow there's not an Orleanist in charge and it's either the AI, or the player has set a restoration variable and something's just gotten buggy. 
+			# If France is controlled by a player and a dynasty other than the Orleanists has been restored to the throne, nothing in this section applies.
+			if = {
+				limit = {
+					any_scope_character = {
+						is_ruler = yes
+						NOT = { has_variable = orleanist_leader }
+					}
+					OR = {
+						is_player = no
+						AND = {
+							is_player = yes
+							has_variable = orleanist_restoration_var
+						}
+					}
+				}
+				generate_french_monarch = yes
+				if = {
+					limit = {
+						has_variable = bonapartist_restoration_var
+					}
+					remove_variable = bonapartist_restoration_var
+				}
+				if = {
+					limit = {
+						has_variable = legitimist_restoration_var
+					}
+					remove_variable = legitimist_restoration_var
+				}
+				if = {
+					limit = {
+						NOT = { has_variable = orleanist_restoration_var }
+					}
+					set_variable = orleanist_restoration_var
+				}
+			}
+			###
+
+			# If France somehow doesn't have the monarchist JEs, it (re)gains them
+			if = {
+				limit = {
+					NOT = { has_journal_entry = je_divided_monarchists }
+					has_dlc_feature = voice_of_the_people_content
+				}
+				if = {
+					limit = {
+						has_variable = fra_divided_monarchists_freeze
+					}
+					remove_variable = fra_divided_monarchists_freeze
+				}
+				add_journal_entry = {
+					type = je_divided_monarchists
+				}
+			}
+
+			if = {
+				limit = {
+					has_variable = orleanist_restoration_var
+					NOT = { has_journal_entry = je_cement_the_rightful_dynasty }
+					has_dlc_feature = voice_of_the_people_content
+				}
+				add_journal_entry = {
+					type = je_cement_the_rightful_dynasty
+				}
+			}
+		}
+
+		### Bonapartists
+		else_if = {
+			limit = {
+				c:FRA ?= this
+				has_law = law_type:law_monarchy
+				any_interest_group = {
+					is_in_government = yes
+					is_strongest_ig_in_government = yes
+					leader = {	
+						has_ideology = ideology:ideology_bonapartist
+					}
+				}
+				NOT = { has_variable = one_true_french_dynasty }
+			}
+
+			### Reset AI to support Bonapartists. Players can continue to support any dynasty they like ###
+			if = {
+				limit = {
+					is_player = no
+					has_variable = supporting_orleanist_var
+				}
+				remove_variable = supporting_orleanist_var
+			}
+			if = {
+				limit = {
+					is_player = no
+					has_variable = supporting_legitimist_var
+				}
+				remove_variable = supporting_legitimist_var
+			}
+			if = {
+				limit = {
+					is_player = no
+					NOT = { has_variable = supporting_bonapartist_var }
+				}
+				set_variable = {
+					name = supporting_bonapartist_var
+				}
+			}
+			### 
+
+			# Generate a Bonapartist monarch if somehow there's not an Bonapartist in charge and it's either the AI, or the player has set a restoration variable and something's just gotten buggy. 
+			# If France is controlled by a player and a dynasty other than the glorious house of Bonaparte has been restored to the throne, nothing in this section applies.
+			if = {
+				limit = {
+					any_scope_character = {
+						is_ruler = yes
+						NOT = { has_variable = bonapartist_leader }
+					}
+					OR = {
+						is_player = no
+						AND = {
+							is_player = yes
+							has_variable = bonapartist_restoration_var
+						}
+					}
+				}
+				generate_french_monarch = yes
+				if = {
+					limit = {
+						has_variable = orleanist_restoration_var
+					}
+					remove_variable = orleanist_restoration_var
+				}
+				if = {
+					limit = {
+						has_variable = legitimist_restoration_var
+					}
+					remove_variable = legitimist_restoration_var
+				}
+				if = {
+					limit = {
+						NOT = { has_variable = bonapartist_restoration_var }
+					}
+					set_variable = bonapartist_restoration_var
+				}
+			}
+			###
+
+			# If France somehow doesn't have the monarchist JEs, it (re)gains them
+			if = {
+				limit = {
+					NOT = { has_journal_entry = je_divided_monarchists }
+					has_dlc_feature = voice_of_the_people_content
+				}
+				if = {
+					limit = {
+						has_variable = fra_divided_monarchists_freeze
+					}
+					remove_variable = fra_divided_monarchists_freeze
+				}
+				add_journal_entry = {
+					type = je_divided_monarchists
+				}
+			}
+
+			if = {
+				limit = {
+					has_variable = bonapartist_restoration_var
+					NOT = { has_journal_entry = je_cement_the_rightful_dynasty }
+					has_dlc_feature = voice_of_the_people_content
+				}
+				add_journal_entry = {
+					type = je_cement_the_rightful_dynasty
+				}
+			}
+		}
+
+		### Legitimists
+		else_if = {
+			limit = {
+				c:FRA ?= this
+				has_law = law_type:law_monarchy
+				any_interest_group = {
+					is_in_government = yes
+					is_strongest_ig_in_government = yes
+					leader = {	
+						has_ideology = ideology:ideology_legitimist
+					}
+				}
+				NOT = { has_variable = one_true_french_dynasty }
+			}
+
+			### Reset AI to support Legitimists. Players can continue to support any dynasty they like ###
+			if = {
+				limit = {
+					is_player = no
+					has_variable = supporting_bonapartist_var
+				}
+				remove_variable = supporting_bonapartist_var
+			}
+			if = {
+				limit = {
+					is_player = no
+					has_variable = supporting_orleanist_var
+				}
+				remove_variable = supporting_orleanist_var
+			}
+			if = {
+				limit = {
+					is_player = no
+					NOT = { has_variable = supporting_legitimist_var }
+				}
+				set_variable = {
+					name = supporting_legitimist_var
+				}
+			}
+			### 
+
+			# Generate a Legitimist monarch if somehow there's not an Legitimist in charge and it's either the AI, or the player has set a restoration variable and something's just gotten buggy. 
+			# If France is controlled by a player and a dynasty other than the house of Bourbon has been restored to the throne, nothing in this section applies.
+			if = {
+				limit = {
+					any_scope_character = {
+						is_ruler = yes
+						NOT = { has_variable = legitimist_leader }
+					}
+					OR = {
+						is_player = no
+						AND = {
+							is_player = yes
+							has_variable = legitimist_restoration_var
+						}
+					}
+				}
+				generate_french_monarch = yes
+				if = {
+					limit = {
+						has_variable = orleanist_restoration_var
+					}
+					remove_variable = orleanist_restoration_var
+				}
+				if = {
+					limit = {
+						has_variable = bonapartist_restoration_var
+					}
+					remove_variable = bonapartist_restoration_var
+				}
+				if = {
+					limit = {
+						NOT = { has_variable = legitimist_restoration_var }
+					}
+					set_variable = legitimist_restoration_var
+				}
+			}
+			###
+
+			# If France somehow doesn't have the monarchist JEs, it (re)gains them
+			if = {
+				limit = {
+					NOT = { has_journal_entry = je_divided_monarchists }
+					has_dlc_feature = voice_of_the_people_content
+				}
+				if = {
+					limit = {
+						has_variable = fra_divided_monarchists_freeze
+					}
+					remove_variable = fra_divided_monarchists_freeze
+				}
+				add_journal_entry = {
+					type = je_divided_monarchists
+				}
+			}
+
+			if = {
+				limit = {
+					has_variable = legitimist_restoration_var
+					NOT = { has_journal_entry = je_cement_the_rightful_dynasty }
+					has_dlc_feature = voice_of_the_people_content
+				}
+				add_journal_entry = {
+					type = je_cement_the_rightful_dynasty
+				}
+			}
+		}
+	}
+}

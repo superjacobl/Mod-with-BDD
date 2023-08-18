@@ -1,0 +1,14 @@
+﻿minority_central_asian
+tatar
+tuvan
+
+minority_siberian
+siberian
+yakut (state check)
+inuit
+
+keep
+russian
+mongol
+manchu
+ugrian

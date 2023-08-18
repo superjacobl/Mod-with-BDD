@@ -1,0 +1,59 @@
+﻿finnish_decision = {
+	is_shown = {
+		exists = c:SCA
+		c:SCA = THIS
+		NOT = { 		country_has_primary_culture = cu:finnish }
+	}
+
+	possible = {
+		custom_tooltip = {
+			text = is_meiji_japan
+		}
+		c:SCA = {
+			any_scope_state = {
+				state_region = {
+					is_homeland = cu:finnish
+				}
+			}
+		}
+	}
+
+	when_taken = {
+		c:SCA = { trigger_event = { id = sca_culture_event.1 } }
+	}
+
+	ai_chance = {
+		base = 10
+	}
+}
+
+estonian_decision = {
+	is_shown = {
+		exists = c:SCA
+		c:SCA = THIS
+		country_has_primary_culture = cu:finnish
+		NOT = { 		country_has_primary_culture = cu:estonian }
+	}
+
+	possible = {
+		custom_tooltip = {
+			text = is_meiji_japan
+		}
+		c:SCA = {
+			any_scope_state = {
+				state_region = {
+					is_homeland = cu:estonian
+				}
+			}
+		}
+	}
+
+	when_taken = {
+		c:SCA = { trigger_event = { id = sca_culture_event.2 } }
+	}
+
+	ai_chance = {
+		base = 10
+	}
+}
+

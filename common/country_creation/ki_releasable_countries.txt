@@ -1,0 +1,364 @@
+﻿WGR = {
+	states = {
+		STATE_TARTARIA
+	}
+
+	ai_will_do = { always = no }
+
+	possible = {
+		has_technology_researched = nationalism
+	}
+}
+
+CNW = {
+	provinces = { xEB9862 xA2DD9E xC900EF x63EF7E x1E38F8 }
+
+	ai_will_do = { always = no }
+}
+
+LMV = {
+	states = {
+		STATE_VENETIA 
+		STATE_LOMBARDY 
+	}
+	ai_will_do = { always = no }	
+}
+
+BAN = { #Banat Native
+	states = {
+		STATE_BANAT
+		STATE_DELVIDEK
+	}
+
+	ai_will_do = { always = no }
+}
+
+BAA = { #Banat German
+	states = {
+		STATE_BANAT
+		STATE_DELVIDEK
+	}
+
+	ai_will_do = { always = no }
+}
+
+ILY = { #Illyria
+	use_culture_states = yes
+
+	ai_will_do = { always = no }
+}
+
+BKV = {
+	provinces = { x7E6263 x31A0A0 xFFCCDA x067DF0 x00A7F4 }
+
+	ai_will_do = { always = no }
+}
+
+JAU = { # Goshu
+	states = {
+		STATE_NEW_SOUTH_WALES
+		STATE_VICTORIA
+		STATE_SOUTH_AUSTRALIA
+		STATE_QUEENSLAND
+		STATE_NORTHERN_TERRITORY
+		STATE_WESTERN_AUSTRALIA
+		STATE_TASMANIA
+	}
+
+	ai_will_do = { always = no }
+}
+
+JER = { # Jerusalem
+	states = {
+		STATE_PALESTINE
+	}
+	ai_will_do = { always = no }
+}
+
+NTH = { # Northumbria
+	states = {
+		STATE_LANCASHIRE
+		STATE_YORKSHIRE
+	}
+	ai_will_do = { always = no }
+}
+
+GOT = { # Gotland
+	states = {
+		STATE_GOTLAND
+	}
+	ai_will_do = { always = no }
+}
+
+GEL = { # Elsass–Lothringen
+	states = {
+		STATE_ALSACE_LORRAINE
+	}
+	ai_will_do = { always = no }
+}
+
+FAL = { # Alsace-Lorraine
+	states = {
+		STATE_ALSACE_LORRAINE
+	}
+	ai_will_do = { always = no }
+}
+
+AAL = { # Åland
+	states = {
+		STATE_ALAND
+	}
+	ai_will_do = { always = no }
+}
+
+SUT = { #South Tyrol
+    states = {
+        STATE_SOUTH_TYROL
+    }
+
+    ai_will_do = { always = no }
+}
+
+TER = { #Rumeli
+    states = {
+        STATE_WESTERN_THRACE
+		STATE_NORTHERN_THRACE
+		STATE_BULGARIA
+		STATE_DOBRUDJA
+		STATE_SKOPIA
+		STATE_SOUTHERN_SERBIA
+		STATE_MACEDONIA
+		STATE_THESSALIA
+		STATE_ALBANIA
+		STATE_MONTENEGRO
+		STATE_BOSNIA
+		STATE_ATTICA
+		STATE_PELOPONNESE
+		STATE_IONIAN_ISLANDS
+		STATE_CRETE
+		STATE_WALLACHIA
+		STATE_NORTHERN_SERBIA
+		STATE_EASTERN_THRACE
+    }
+
+    ai_will_do = { always = no }
+}
+
+GAY = { #GUAYANA
+	states = {
+		STATE_GUAYANA
+	}
+	
+	ai_will_do = { always = no }
+}
+
+KOS = {
+	provinces = { xB852BB x45E06A xD02161 xA5D3A9 }
+
+	ai_will_do = { always = no }
+
+}
+
+ISE = { # Council of four lands
+	states = {
+		STATE_LESSER_POLAND
+		STATE_WEST_GALICIA
+		STATE_EAST_GALICIA
+		STATE_VOLHYNIA
+		STATE_GREATER_POLAND
+	}
+	
+	ai_will_do = { always = no }
+}
+
+ISB = { # Beta Israel
+	states = {
+		STATE_GONDER
+	}
+	
+	ai_will_do = { always = no }
+}
+
+ISC = { # jewish crimea
+	states = {
+		STATE_CRIMEA
+	}
+	
+	ai_will_do = { always = no }
+}
+
+JAO = { # Jewish Autonomous Oblast
+	provinces = { x65E38A x498F40 xB17E01 xDF373B x1ABE9A x01950F x0BEBF2 x049ECA x939B64 x6A0BEC x06C646 x04A22A }
+	
+	ai_will_do = { always = no }
+}
+
+CAU = { # Caucasus
+	states = {
+		STATE_ARMENIA
+		STATE_AZERBAIJAN
+		STATE_GREATER_CAUCASUS
+		STATE_KARS
+	}
+	
+	ai_will_do = { always = no }
+}
+
+BHM = { #Böhmen
+	states = {
+		STATE_BOHEMIA
+		STATE_MORAVIA
+	}
+	
+	ai_will_do = { always = no }
+}
+
+SGP = { 
+	provinces = { xC00130 }
+
+	
+	ai_will_do = { always = no }
+}
+
+KRL = { #Karelia
+	states = {
+		STATE_WEST_KARELIA
+		STATE_EAST_KARELIA
+	}
+	
+	ai_will_do = { always = no }
+}
+
+NOV = { #Novgorod
+	states = {
+		STATE_NOVGOROD
+		STATE_INGRIA
+		STATE_EAST_KARELIA
+		STATE_TVER
+		STATE_ARKHANGELSK
+		STATE_NENETSIA
+		STATE_GALICH
+	}
+	
+	ai_will_do = { always = no }
+}
+
+ING = { #Ingria
+	states = {
+		STATE_INGRIA
+	}
+	
+	ai_will_do = { always = no }
+}
+
+SBB = { # Siebenbürgen
+	states = {
+		STATE_NORTHERN_TRANSYLVANIA
+		STATE_SOUTHERN_TRANSYLVANIA
+	}
+	
+	ai_will_do = { always = no }
+}
+
+GBD = { # United Baltic Duchy
+	states = {
+		STATE_ESTONIA
+		STATE_LATVIA
+	}
+	
+	ai_will_do = { always = no }
+}
+
+BGD = { # 
+	states = {
+		STATE_BURGUNDY
+		STATE_SAVOY
+		STATE_PROVENCE
+		STATE_WEST_SWITZERLAND
+		STATE_RHONE
+		STATE_FRANCHE_COMTE
+	}
+	
+	ai_will_do = { always = no }
+}
+
+GHN = { # 
+	states = {
+		STATE_TRANSDANUBIA
+	}
+	
+	ai_will_do = { always = no }
+}
+
+NMD = { # 
+	states = {
+		STATE_NORMANDY
+	}
+	
+	ai_will_do = { always = no }
+}
+
+VRD = { # 
+	states = {
+		STATE_SKOPIA
+	}
+	
+	ai_will_do = { always = no }
+}
+
+MCD = { # 
+	states = {
+		STATE_SKOPIA
+		STATE_MACEDONIA
+	}
+	
+	ai_will_do = { always = no }
+}
+
+SLS = { # 
+	states = {
+		STATE_SILESIA
+	}
+	
+	ai_will_do = { always = no }
+}
+
+PZN = { # 
+	states = {
+		STATE_POSEN
+	}
+	
+	ai_will_do = { always = no }
+}
+
+BRB = { # 
+	states = {
+		STATE_BRANDENBURG
+	}
+	
+	ai_will_do = { always = no }
+}
+
+APT = { # 
+	use_culture_states = yes
+
+	
+	ai_will_do = { always = no }
+}
+
+ALM = { # 
+	use_culture_states = yes
+
+	
+	ai_will_do = { always = no }
+}
+
+ATV = { # 
+	states = {
+		STATE_ALGIERS
+		STATE_ORAN
+		STATE_CONSTANTINE
+	}
+	
+	ai_will_do = { always = no }
+}

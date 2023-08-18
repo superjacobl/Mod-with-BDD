@@ -1,0 +1,103 @@
+﻿namespace = sca_culture_event
+
+#Scandinavia event 1
+sca_culture_event.1 = {
+	type = country_event
+
+	event_image = {
+		video = "gfx/event_pictures/unspecific_signed_contract.bk2"
+	}
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	
+	on_opened_soundeffect = "event:/SFX/Events/unspecific/military_parade"
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+
+	title = sca_culture_event.1.t
+	desc = sca_culture_event.1.d
+	flavor = sca_culture_event.1.f
+	
+	duration = 3
+
+	trigger = { }
+
+	option = {
+		name = sca_culture_event.1.a
+		default_option = yes
+		add_primary_culture = cu:finnish
+
+		add_loyalists = {
+			culture = cu:finnish
+			value = 0.15
+			}
+	}
+
+	option = {
+		name = sca_culture_event.1.b
+
+		add_loyalists = {
+			culture = cu:danish
+			value = 0.1
+			}
+		add_loyalists = {
+			culture = cu:swedish
+			value = 0.1
+			}
+		add_loyalists = {
+			culture = cu:norwegian
+			value = 0.1
+			}
+	}
+}
+
+#Scandinavia event
+sca_culture_event.2 = {
+	type = country_event
+
+	event_image = {
+		video = "gfx/event_pictures/unspecific_signed_contract.bk2"
+	}
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	
+	on_opened_soundeffect = "event:/SFX/Events/unspecific/military_parade"
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+
+	title = sca_culture_event.2.t
+	desc = sca_culture_event.2.d
+	flavor = sca_culture_event.2.f
+	
+	duration = 3
+
+	trigger = { }
+
+	option = {
+		name = sca_culture_event.2.a
+		default_option = yes
+		add_primary_culture = cu:estonian
+
+		add_loyalists = {
+			culture = cu:estonian
+			value = 0.15
+			}
+	}
+
+	option = {
+		name = sca_culture_event.2.b
+
+		add_loyalists = {
+			culture = cu:danish
+			value = 0.1
+			}
+		add_loyalists = {
+			culture = cu:swedish
+			value = 0.1
+			}
+		add_loyalists = {
+			culture = cu:norwegian
+			value = 0.1
+			}
+		add_loyalists = {
+			culture = cu:finnish
+			value = 0.1
+			}
+	}
+}

@@ -1,0 +1,44 @@
+﻿agitator_vtm_doodlez_template = {
+    first_name = culture
+    last_name = culture
+    culture = cu:north_german
+	age = default
+	is_agitator = yes
+	historical = yes
+    female = no
+    religion = atheist
+    ideology = ideology_luddite
+    interest_group = ig_rural_folk
+    traits = {
+		meticulous
+		bandit
+		syphilis
+		alcoholic
+		cocaine_addiction
+		opium_addiction
+    }  
+	agitator_usage = {
+		country_trigger = {
+			NOT = {
+				has_global_variable = spawned_doodlez
+			}
+			OR = {
+				country_has_primary_culture = cu:north_german
+				country_has_primary_culture = cu:south_german
+			}
+		}
+        interest_group_trigger = {
+            OR = {
+                is_interest_group_type = ig_rural_folk
+                is_interest_group_type = ig_trade_unions
+            } 
+        }   
+		earliest_usage_date = 1873.3.1
+		latest_usage_date = 1913.3.7
+		chance = 25
+	}
+	on_created = {
+		set_global_variable = spawned_doodlez
+		set_variable = is_opb
+	} 
+}

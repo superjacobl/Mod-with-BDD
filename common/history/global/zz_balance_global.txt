@@ -1,0 +1,14 @@
+﻿GLOBAL = { ### France, Great Britain and Netherlands need to be changed to colonial exploitation in history/countries!
+	every_state = {
+		limit = {
+			owner = {
+				has_law = law_type:law_colonial_exploitation
+			}
+			is_incorporated = no
+			is_treaty_port = no
+		}
+		add_modifier = {
+			name = zz_colonial_exploitation
+		}
+	}
+}

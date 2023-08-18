@@ -1,0 +1,11 @@
+﻿l_english:
+ modifier_state_unincorporated_building_group_bg_manufacturing_throughput_mult:0 "$bg_manufacturing$ [concept_throughput] in [Concept('concept_unincorporated_state', '$concept_unincorporated_states$')]"
+ modifier_state_unincorporated_building_group_bg_manufacturing_throughput_mult_desc:0 "A bonus or penalty to both input and output of $bg_manufacturing$ in [Concept('concept_unincorporated_state', '$concept_unincorporated_states$')]"
+ modifier_state_unincorported_pop_qualifications_mult:0 "[concept_pop_qualifications] in [Concept('concept_unincorporated_state', '$concept_unincorporated_states$')]"
+ modifier_state_unincorported_pop_qualifications_mult_desc:0 "A bonus or penalty to [concept_pop_qualifications] in [Concept('concept_unincorporated_state', '$concept_unincorporated_states$')]"
+ modifier_building_category_rural_unincorporated_rural_throughput_mult:0 "Rural Industries [concept_throughput] in [Concept('concept_unincorporated_state', '$concept_unincorporated_states$')]"
+ modifier_building_category_rural_unincorporated_rural_throughput_mult_desc:0 "A bonus or penalty to both input and output of Resource and Agriculture Buildings in [Concept('concept_unincorporated_state', '$concept_unincorporated_states$')]"
+#  modifier_building_group_bg_rubber_throughput_mult:0 "$bg_rubber$ [concept_throughput]"
+#  modifier_building_group_bg_rubber_throughput_mult_desc:0 "A bonus or penalty to both input and output of $bg_rubber$"
+ zz_colonial_exploitation:0 "Colonial Exploitation"
+ zz_prussian_military_mission:0 "Prussian Military Mission"

@@ -1,0 +1,7 @@
+﻿l_english:
+ springtime_of_the_people_je_opened_group:0 "Springtime Of The Peoples"
+ springtime_of_the_people_je_opened:0 "Springtime of the Peoples"
+ notification_springtime_of_the_people_je_opened_tooltip:0 "This political Springtime in [SCOPE.sC('originator').GetName] may inspire citizens of other countries to create unrest in the pursuit of liberty."
+
+ mobilizing_the_militia:1 "Mobilizing the Militia"
+ deploying_the_army:0 "Deploying the Army"

@@ -1,0 +1,346 @@
+﻿l_german:
+ LOT:0 "Lotharingien"
+ LOT_ADJ:0 "Lotharingisch"
+ 
+ EUR:0 "Europäische Förderation"
+ EUR_ADJ:0 "Europäisch"
+ dyn_c_european_empire: "Europäisches Imperium"
+ dyn_c_socialist_republic_of_europe: "Sozialistische Europäische Union"
+ dyn_c_free_europe: "Freies Europa"
+ dyn_c_european_state: "Europäischer Staat"
+ dyn_c_holy_european_order: "Heiliger Europäischer Orden"
+
+ 
+ WGR:0 "Wolga-Deutschland"
+ WGR_ADJ:0 "Wolga-Deutsch"
+ dyn_c_volga_socialist_republic: "Sozialistische Wolgarepublik"
+ dyn_c_far_east_german_state: "Fernostdeutscher Staat"
+ 
+ BNL:0 "Benelux"
+ BNL_ADJ:0 "Beneluxisch"
+ 
+ CEL:0 "Keltien"
+ CEL_ADJ:0 "Keltisch"
+ 
+ INC:0 "Reich der Inka"
+ INC_ADJ:0 "Inkaisch"
+ 
+ ZAP:0 "Westslawische Förderation"
+ ZAP_ADJ:0 "Westslawisch"
+ 
+ STP:0 "Sankt Petersburg"
+ STP_ADJ:0 "Peterisch"
+ 
+ ING:0 "Ingria"
+ ING_ADJ:0 "Ingrian"
+ 
+ PAI:0 "Paris"
+ PAI_ADJ:0 "Parisisch"
+ 
+ CNW:0 "Kornwall"
+ CNW_ADJ:0 "Kornwallisch"
+ 
+ CRT:0 "Karthago"
+ CRT_ADJ:0 "Karthagisch"
+ 
+ CRB:0 "Karibische Union"
+ CRB_ADJ:0 "Karibisch"
+ dyn_c_kingdom_of_the_caribbean: "Königreich der Karibik"
+ dyn_c_caribbean_socialist_republics: "Sozialistische Karibikrepubliken"
+ dyn_c_caribbean_free_states: "Freie Karibischen Staaten"
+ dyn_c_caribbean_state: "Karibischer Staat"
+ 
+ HRE:0 "Heiliges Römisches Reich"
+ HRE_ADJ:0 "Heilig römisch"
+ dyn_c_holy_roman_republic: "Heilige Römische Republik"
+ dyn_c_holiest_roman_empire: "Heiligstes Gottesreich"
+ dyn_c_holy_socialist_republics: "Heilige Sozialrepubliken"
+ dyn_c_holy_commune: "Heilige Gemeinden"
+ 
+ IFR:0 "Imperiale Förderation"
+ IFR_ADJ:0 "Imperialsch"
+ dyn_c_holy_global_federation: "Heilige Globale Förderation"
+ dyn_c_global_socialist_federation: "Globale Sozialförderation"
+ dyn_c_global_anarchist_society: "Global-Anarchistische Gesellschaft"
+ 
+ SOM:0 "Somalia"
+ SOM_ADJ:0 "Somalisch"
+ 
+ RMA:0 "Römische Reich"
+ RMA_ADJ:0 "Römisch"
+ dyn_c_free_roman_lands: "Freie Römische Provinzen"
+ 
+ BGR:0 "Bulgarisch-Rumänische Union"
+ BGR_ADJ:0 "Bulgarisch-rumänisch"
+ 
+ LMV:0 "Lombardisch-Venedische Konförderation"
+ LMV_ADJ:0 "Lombardisch-venedisch"
+
+ BON:0 "Borneo"
+ BON_ADJ:0 "Bornisch" 
+ 
+ ANC:0 "Antillische Förderation"
+ ANC_ADJ:0 "Antillisch"
+ 
+ PAG:0 "Patria Grande"
+ PAG_ADJ:0 "Patrisch"
+ dyn_c_ursal: "Union Der Sozialistischen Republiken Lateinamerikas"
+
+ GRL:0 "Grandelumiere"
+ GRL_ADJ:0 "Grandelumisch"
+
+ BAA:0 "Banatien"
+ BAA_ADJ:0 "Banatienisch"
+
+ BAN:0 "Banat"
+ BAN_ADJ:0 "Banatisch"
+ 
+ MRV:0 "Mährerreich"
+ MRV_ADJ:0 "Mährisch"
+ 
+ ILY:0 "Illyrien"
+ ILY_ADJ:0 "Illyrisch"
+ 
+ BKV:0 "Buchenland"
+ BKV_ADJ:0 "Buchenländisch"
+ 
+ JAU:0 "Goshu"
+ JAU_ADJ:0 "Goshuisch"
+ 
+ JER:0 "Jerusalem"
+ JER_ADJ:0 "Jerusalemisch"
+ dyn_c_kingdom_of_jerusalem: "Königreich Jerusalem"
+ 
+ EAF:0 "Ostafrika"
+ EAF_ADJ:0 "Ostafrikanisch"
+ dyn_c_east_african_federation: "Ostafrikanische Förderation"
+ dyn_c_east_african_commune: "Ostafrikanische Kommune"
+ dyn_c_east_african_kingdom: "Königreich der Ostafrikanischen Völker"
+ 
+ 
+ NYC:0 "New York City"
+ NYC_ADJ:0 "New yorkerisch"
+ 
+ ACA:0 "Akadien"
+ ACA_ADJ:0 "Akadisch"
+ 
+ NOF:0 "Neufrankreich"
+ NOF_ADJ:0 "Neufranzösisch"
+ 
+ PAS:0 "Pazifische Staaten"
+ PAS_ADJ:0 "Pazifisch"
+ dyn_c_pacific_kingdom: "Königreich des Pazifiks"
+ dyn_c_pacific_commune: "Pazifische Kommune"
+
+ dyn_c_cascadian_kindgom: "Königreich Kaskadien"
+ 
+ GLR:0 "Republik der Großen Seen"
+ GLR_ADJ:0 "Seeisch"
+ dyn_c_kingdom_of_the_great_lakes: "Königreich der Großen Seen"
+ dyn_c_great_lakes_communes: "Gemeinschaft der Großen Seen"
+ 
+ TDW:0 "Tidewater"
+ TDW_ADJ:0 "Tidewaterisch"
+ dyn_c_ocean_kingdom: "Königreich aller Ozeane"
+ dyn_c_tide_communist_state: "Kommunistischer Ozeanstaat"
+ 
+ APL:0 "Appalachien"
+ APL_ADJ:0 "Appalachisch"
+ dyn_c_mountain_kingdom: "Königreich der Berge"
+ dyn_c_appalachian_commune: "Appalachische Gemeinschaft"
+ 
+ ATC:0 "Atlantica"
+ ATC_ADJ:0 "Atlantisch"
+ dyn_c_atlantis: "Atlantis"
+ dyn_c_atlantic_society: "Gemeinschaft von Atlantis"
+ 
+ AXO:0 "Arixo"
+ AXO_ADJ:0 "Arixoisch"
+ dyn_c_arixo_kingdom: "Arixoische Regentschaft"
+ 
+ ROK:0 "Republik der Staaten der Rocky Mountains"
+ ROK_ADJ:0 "Rockisch"
+ dyn_c_kingdom_of_the_rockies: "Königreich der Rocky Mountains"
+ dyn_c_rock_community: "Rocky Mountains Gemeinschaft"
+ 
+ MWR:0 "Republik des Mittleren Westens"
+ MWR_ADJ:0 "Midwestisch"
+ dyn_c_great_plains_kingdom: "Königreich der Großen Ebene"
+ dyn_c_great_plains_communes: "Kommune der Großen Ebene"
+ 
+ DIX:0 "Dixieland"
+ DIX_ADJ:0 "Dixieisch"
+ dyn_c_southern_kingdom: "Herrschaftsgebiet der Südlichen US-Bundeststaaten"
+ dyn_c_southern_communes: "Kommune der Südlichen Staaten"
+ 
+ GTX:0 "Großtexas"
+ GTX_ADJ:0 "Großtexanisch"
+ 
+ DKO:0 "Dakota"
+ DKO_ADJ:0 "Dakotisch"
+ 
+ CAR:0 "Carolina"
+ CAR_ADJ:0 "Carolianisch"
+ 
+ TTC:0 "Dreizehn Kolonien"
+ TTC_ADJ:0 "Kolonianisch"
+ dyn_c_new_brittain: "Neubritannien"
+ dyn_c_thirteen_communes: "Dreizehn Kommune"
+ 
+ ARC:0 "Arktische Staaten"
+ ARC_ADJ:0 "Arktisch"
+ dyn_c_arctic_kindom: "Königreich des Nordpols"
+ dyn_c_arctic_society: "Arktische Gemeinschaft"
+ dyn_c_hyperborea: "Hyperborea"
+ 
+ MAI:0 "Maine"
+ MAI_ADJ:0 "Mainisch"
+ NHM:0 "New Hampshire"
+ NHM_ADJ:0 "New Hampshirisch"
+ VER:0 "Vermont"
+ VER_ADJ:0 "Vermontisch"
+ MAS:0 "Massachusetts"
+ MAS_ADJ:0 "Massachusettisch"
+ RHI:0 "Rhode Island"
+ RHI_ADJ:0 "Rhode Islandisch"
+ CNN:0 "Connecticut"
+ CNN_ADJ:0 "Connecticutisch"
+ NYK:0 "New York"
+ NYK_ADJ:0 "New Yorkerisch"
+ NJY:0 "New Jersey"
+ NJY_ADJ:0 "New Jersisch"
+ PEN:0 "Pennsylvania"
+ PEN_ADJ:0 "Pennsylvanisch"
+ DEL:0 "Delaware"
+ DEL_ADJ:0 "Delawarisch"
+ MAR:0 "Maryland"
+ MAR_ADJ:0 "Marylandisch"
+ VIR:0 "Virginia"
+ VIR_ADJ:0 "Virginisch"
+ NCR:0 "North Carolina"
+ NCR_ADJ:0 "North Carolinisch"
+ SCR:0 "South Carolina"
+ SCR_ADJ:0 "South Carolinisch"
+ GRG:0 "Georgia"
+ GRG_ADJ:0 "Georgisch"
+ FLR:0 "Florida"
+ FLR_ADJ:0 "Floridianisch"
+ OHI:0 "Ohio"
+ OHI_ADJ:0 "Ohionisch"
+ INA:0 "Indiana"
+ INA_ADJ:0 "Indianisch"
+ ILL:0 "Illinois"
+ ILL_ADJ:0 "Illinoisch"
+ WVA:0 "West Virginia"
+ WVA_ADJ:0 "West Virginianisch"
+ KEN:0 "Kentucky"
+ KEN_ADJ:0 "Kentuckisch"
+ TEN:0 "Tennessee"
+ TEN_ADJ:0 "Tennesseeisch"
+ ALA:0 "Alabama"
+ ALA_ADJ:0 "Alabamisch"
+ MIS:0 "Mississippi"
+ MIS_ADJ:0 "Mississippisch"
+ MIN:0 "Minnesota"
+ MIN_ADJ:0 "Minnesotisch"
+ WIS:0 "Wisconsin"
+ WIS_ADJ:0 "Wisconsisch"
+ IOA:0 "Iowa"
+ IOA_ADJ:0 "Iowanisch0"
+ MSR:0 "Missouri"
+ MSR_ADJ:0 "Missourisch"
+ ARK:0 "Arkansas"
+ ARK_ADJ:0 "Arkansasisch"
+ NDK:0 "North Dakota"
+ NDK_ADJ:0 "North Dakotisch"
+ SDK:0 "South Dakota"
+ SDK_ADJ:0 "South Dakotisch"
+ NEB:0 "Nebraska"
+ NEB_ADJ:0 "Nebraskisch"
+ KAN:0 "Kansas"
+ KAN_ADJ:0 "Kansanisch"
+ OKL:0 "Oklahoma"
+ OKL_ADJ:0 "Oklahomisch"
+ MTN:0 "Montana"
+ MTN_ADJ:0 "Montanisch"
+ WYO:0 "Wyoming"
+ WYO_ADJ:0 "Wyomingisch"
+ CDO:0 "Colorado"
+ CDO_ADJ:0 "Coloradisch"
+ NMX:0 "New Mexico"
+ NMX_ADJ:0 "New Mexicanisch"
+ IDA:0 "Idaho"
+ IDA_ADJ:0 "Idahoisch"
+ ARI:0 "Arizona"
+ ARI_ADJ:0 "Arizonisch"
+ WSH:0 "Washington"
+ WSH_ADJ:0 "Washingtonisch"
+ ORE:0 "Oregon"
+ ORE_ADJ:0 "Oregonisch"
+ NEV:0 "Nevada"
+ NEV_ADJ:0 "Nevadisch"
+ AKA:0 "Alaska"
+ AKA_ADJ:0 "Alaskanisch"
+ 
+ NTH:0 "Northumbrien"
+ NTH_ADJ:0 "Northumbrianisch"
+ 
+ GOT:0 "Gotland"
+ GOT_ADJ:0 "Gotlandisch"
+ 
+ FAL:0 "Alsace-Lorraine"
+ FAL_ADJ:0 "Alsacian"
+ 
+ GEL:0 "Elsass-Lothringen"
+ GEL_ADJ:0 "Elsassian"
+ 
+ AAL:0 "Åland"
+ AAL_ADJ:0 "Ålandisch"
+ 
+ SUT:0 "Südtirol"
+ SUT_ADJ:0 "Südtirolisch"
+ 
+ AGV:0 "Angevinisches Reich"
+ AGV_ADJ:0 "Angevinisch"
+ dyn_c_angevin_republic: "Republik der Angeviner"
+ dyn_c_channel_council: "Rat des Englischen Kanals"
+ 
+ dyn_c_portugal_galicia: "Portugaliza"
+ 
+ dyn_c_denmark_norway: "Dänemark-Norwegen"
+ 
+ CSR:0 "Südkegel"
+ CSR_ADJ:0 "Südkeglisch"
+ 
+ VLS:0 "Volkstaat"
+ VLS_ADJ:0 "Volk"
+ 
+ ALP:0 "Alpenrepublik"
+ ALP_ADJ:0 "Alpinisch"
+ dyn_c_alpine_kingdom: "Kaiserreich der Alpen"
+ dyn_c_alpine_commune: "Vereinigung der Alpen"
+ dyn_c_alpine_see: "Alpensee"
+ 
+ TER:0 "Rhomäerland"
+ TER_ADJ:0 "Rhomäerisch"
+ 
+ ICH:0 "Indochina"
+ ICH_ADJ:0 "Indochinesisch"
+ 
+ GAY:0 "Guayana"
+ GAY_ADJ:0 "Guayanisch"
+ 
+ KOS:0 "Kosovo"
+ KOS_ADJ:0 "Kosovanisch"
+ 
+ ISB:0 "Beta-Israel"
+ ISB_ADJ:0 "Beta-Israelisch"
+ 
+ ISE:0 "Vierländerrat"
+ ISE_ADJ:0 "Vierländerisch"
+ 
+ ISC:0 "Aschkenas"
+ ISC_ADJ:0 "Aschkenaisch"
+ 
+ JAO:0 "Unabhängiger Jüdischer Oblast"
+ JAO_ADJ:0 "Jüdisch"
